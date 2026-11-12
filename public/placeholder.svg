@@ -1,0 +1,25 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#F5F5DC"/>
+  
+  <!-- Simple flower icon with soft lines -->
+  <g transform="translate(200, 200)" opacity="0.4">
+    <!-- Flower petals -->
+    <circle cx="0" cy="-40" r="25" fill="none" stroke="#8B7355" stroke-width="2"/>
+    <circle cx="35" cy="-20" r="25" fill="none" stroke="#8B7355" stroke-width="2"/>
+    <circle cx="35" cy="20" r="25" fill="none" stroke="#8B7355" stroke-width="2"/>
+    <circle cx="0" cy="40" r="25" fill="none" stroke="#8B7355" stroke-width="2"/>
+    <circle cx="-35" cy="20" r="25" fill="none" stroke="#8B7355" stroke-width="2"/>
+    <circle cx="-35" cy="-20" r="25" fill="none" stroke="#8B7355" stroke-width="2"/>
+    
+    <!-- Flower center -->
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#8B7355" stroke-width="2"/>
+    
+    <!-- Stem -->
+    <path d="M0,15 Q0,50 0,80" fill="none" stroke="#8B7355" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Leaves -->
+    <path d="M0,50 Q-20,40 -30,50 Q-20,60 0,55" fill="none" stroke="#8B7355" stroke-width="2" stroke-linecap="round"/>
+    <path d="M0,60 Q20,50 30,60 Q20,70 0,65" fill="none" stroke="#8B7355" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

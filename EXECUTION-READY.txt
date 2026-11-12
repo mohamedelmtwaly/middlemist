@@ -1,0 +1,159 @@
+تقرير تجهيز التنفيذ النهائي
+================================================================================
+
+## ما تم تجهيزه:
+
+### 1. products-transformed-null-images.json
+- المسار: D:\carrer\Working\middlemis\cop4\project-revival-77-main\project-revival-77-main\products-transformed-null-images.json
+- المحتوى: 348 منتج
+  - 294 منتج بصورة حقيقية (URL من Supabase Storage)
+  - 54 منتج بimage_url = null (بدون صورة)
+- مصدر الصور: Supabase Storage (product-images/products/)
+- التصنيفات: الخريطة المعتمدة سابقاً
+
+### 2. migration-function.sql
+- المسار: D:\carrer\Working\middlemis\cop4\project-revival-77-main\project-revival-77-main\migration-function.sql
+- الدالة: replace_products_catalog(new_products JSONB)
+- السلوك:
+  - تحقق من 348 منتج
+  - تحقق من category_id في categories
+  - تحقق من subcategory_id (إن وجد)
+  - حذف جميع المنتجات من public.products
+  - إدراج 348 منتج جديد
+  - التراجع التلقائي عند الخطأ
+
+### 3. execute-migration-v2.cjs
+- المسار: D:\carrer\Working\middlemis\cop4\project-revival-77-main\project-revival-77-main\execute-migration-v2.cjs
+- الوظيفة:
+  - قراءة products-transformed-null-images.json
+  - استدعاء replace_products_catalog عبر RPC
+  - عرض النتيجة
+
+### 4. products-backup-2026-11-12.json
+- المسار: موجود مسبقاً
+- المحتوى: 181 منتج قديم (للتراجع إذا لزم الأمر)
+
+---
+
+## المتطلبات المتبقية قبل التنفيذ:
+
+### 1. التحقق من image_url يقبل NULL
+```sql
+SELECT column_name, is_nullable
+FROM information_schema.columns
+WHERE table_schema = 'public'
+  AND table_name = 'products'
+  AND column_name = 'image_url';
+```
+
+إذا كانت is_nullable = NO، نفذ:
+```sql
+ALTER TABLE public.products ALTER COLUMN image_url DROP NOT NULL;
+```
+
+### 2. رفع placeholder.svg إلى Supabase Storage
+- المسار: product-images/placeholder.svg (جذر Bucket)
+- استخدم Supabase Dashboard: Storage > product-images > Upload
+
+### 3. تثبيت الدالة في Supabase
+- افتح Supabase SQL Editor
+- انسخ محتوى migration-function.sql بالكامل
+- نفذ SQL
+
+---
+
+## طريقة التنفيذ:
+
+### الخطوة 1: التحقق من NULL
+```bash
+# استخدم Supabase SQL Editor لتنفيذ الاستعلام أعلاه
+```
+
+### الخطوة 2: رفع placeholder.svg
+```bash
+# من Supabase Dashboard:
+# Storage > product-images > Upload > اختر public/placeholder.svg
+```
+
+### الخطوة 3: تثبيت الدالة
+```bash
+# من Supabase SQL Editor:
+# انسخ migration-function.sql
+# نفذ
+```
+
+### الخطوة 4: تنفيذ السكريبت
+```bash
+cd D:\carrer\Working\middlemis\cop4\project-revival-77-main\project-revival-77-main
+node execute-migration-v2.cjs
+```
+
+---
+
+## التحقق بعد التنفيذ:
+
+```sql
+-- عدد المنتجات
+SELECT COUNT(*) FROM public.products;
+-- يجب أن يكون: 348
+
+-- المنتجات بimage_url = null
+SELECT COUNT(*) FROM public.products WHERE image_url IS NULL;
+-- يجب أن يكون: 54
+
+-- المنتجات بصور حقيقية
+SELECT COUNT(*) FROM public.products WHERE image_url IS NOT NULL;
+-- يجب أن يكون: 294
+
+-- التحقق من التصنيفات
+SELECT category, COUNT(*) FROM public.products GROUP BY category;
+```
+
+---
+
+## ملاحظات أمنية:
+
+1. ✓ SUPABASE_SECRET_KEY في .env.local فقط
+2. ✓ السكريبت لا يستخدم المفتاح في Frontend
+3. ✓ السكريبت لا يضع المفتاح في Git
+4. ✓ الدالة مقيدة بـ service_role فقط
+5. ✓ SECURITY DEFINER + search_path = pg_catalog, public
+
+---
+
+## التراجع (Rollback):
+
+إذا فشل التنفيذ:
+- الدالة تراجع تلقائياً (Transaction)
+- يمكن استعادة من products-backup-2026-11-12.json يدوياً
+
+إذا نجح التنفيذ وتريد التراجع:
+- استخدم products-backup-2026-11-12.json لاستعادة المنتجات الـ181
+
+---
+
+## النتائج المتوقعة:
+
+قبل التنفيذ:
+- public.products: 181 منتج
+- product-images/products/: 295 صورة
+
+بعد التنفيذ:
+- public.products: 348 منتج
+  - 294 منتج بصورة حقيقية
+  - 54 منتج بimage_url = null
+- product-images/products/: 295 صورة (لم تُحذف)
+
+---
+
+## هل تريد التنفيذ الآن؟
+
+إذا كانت جميع المتطلبات المتبقية مستوفاة، يرجى تأكيد:
+1. التحقق من image_url يقبل NULL
+2. رفع placeholder.svg
+3. تثبيت الدالة
+
+ثم يمكن تنفيذ:
+```bash
+node execute-migration-v2.cjs
+```

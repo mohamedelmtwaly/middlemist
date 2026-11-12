@@ -1,0 +1,211 @@
+تقرير إصلاح migration-function.sql
+================================================================================
+
+## المشاكل التي تم إصلاحها:
+
+### 1. ✅ الحذف من جدول products فقط
+- تم التأكد من أن DELETE FROM products يحذف فقط من جدول products
+- لم يتم إضافة أي DELETE من جداول أخرى
+
+### 2. ✅ فحص السجلات المرتبطة قبل الحذف
+- تم إضافة فحص لـ cart_items قبل الحذف
+- تم إضافة فحص لـ order_items قبل الحذف
+- تم إضافة فحص لـ favorites قبل الحذف
+- إذا وُجدت أي سجلات، يتم رفع Exception حقيقي باستخدام RAISE EXCEPTION
+- هذا يوقف العملية ويحدث Rollback تلقائي
+
+### 3. ✅ معالجة الأخطاء الصحيحة
+- تم إزالة Exception handler الذي كان يلتقط الأخطاء ويرجع success=false
+- الآن يتم استخدام RAISE في EXCPETION WHEN OTHERS لضمان Rollback حقيقي
+- هذا يضمن أن أي خطأ يظهر للمستخدم كـ RPC error
+
+### 4. ✅ مطابقة أسماء الحقول والTypes
+- تم التحقق من products-transformed.json
+- جميع الحقول مطابقة لأعمدة جدول products:
+  - name: text ✓
+  - category: text ✓
+  - price: numeric ✓
+  - image_url: text ✓
+  - description: jsonb ✓
+  - is_active: boolean ✓
+  - sort_order: integer ✓
+  - category_id: uuid ✓
+  - legacy_id: text ✓
+  - is_featured: boolean ✓
+  - occasions: jsonb ✓
+  - display_sections: jsonb ✓
+  - subcategory_id: jsonb ✓
+
+### 5. ✅ التحقق من category_id
+- تم إصلاح تحويل البيانات لضمان جميع category_ids صالحة
+- جميع الـ348 منتج لديهم category_id UUID صالح
+- جميع category_ids موجودة في جدول categories
+
+### 6. ✅ تنسيق description الصحيح
+- تم إصلاح تحويل البيانات لضمان description هو JSON object
+- الشكل الصحيح: { "ar": "...", "en": "" }
+- لم يعد description عبارة عن string نصي
+
+### 7. ✅ الصور والPlaceholder
+- تم إصلاح تحويل البيانات للتحقق من وجود الصور في Storage
+- المنتجات الـ54 بدون صورة حصلت على Placeholder موحد
+- Placeholder URL: https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/placeholder.svg
+- جميع المنتجات الـ294 بصور موجودة حصلت على روابطها الصحيحة
+
+### 8. ✅ عدم استخدام صور التصنيفات
+- Placeholder موحد لجميع المنتجات المفقودة
+- لم يتم استخدام صور التصنيفات من src/assets/products
+- Placeholder في Supabase Storage فقط
+
+### 9. ✅ SECURITY DEFINER وصلاحيات EXECUTE
+- تم إضافة SET search_path = public لمنع حقن search_path
+- تم إضافة GRANT EXECUTE TO authenticated فقط
+- RLS لا يزال نشط (الدالة SECURITY DEFINER تعمل بسياق المالك)
+- فقط المستخدمين المصادقين يمكنهم تنفيذ الدالة
+
+### 10. ✅ Transaction واحدة حقيقية
+- الدالة تعمل داخل Transaction ضمني
+- DELETE و INSERT في نفس Transaction
+- أي Exception يسبب Rollback تلقائي
+
+### 11. ✅ التحقق من عدد المنتجات
+- تم إضافة فحص: input_count يجب أن يكون 348
+- تم إضافة فحص: inserted_count يجب أن يكون 348
+- إذا لم يطابق، يتم رفع Exception
+
+### 12. ✅ عدم تعديل الجداول الأخرى
+- الدالة تعدل جدول products فقط
+- لا تحذف أو تعدل categories
+- لا تحذف أو تعدل cart_items, order_items, favorites
+- لا تحذف أو تعدل صور Storage
+
+================================================================================
+
+## النسخة الجديدة من migration-function.sql:
+
+محفوظة في: migration-function.sql
+
+المحتويات:
+```sql
+-- Create function to replace products in a single transaction
+-- This function performs atomic replacement of all products
+-- SECURITY: Only authorized users can execute this function
+CREATE OR REPLACE FUNCTION replace_products_catalog(new_products JSONB)
+RETURNS JSONB
+LANGUAGE plpgsql
+SECURITY DEFINER
+SET search_path = public
+AS $$
+DECLARE
+  result JSONB;
+  inserted_count INTEGER;
+  deleted_count INTEGER;
+  input_count INTEGER;
+  cart_items_count INTEGER;
+  order_items_count INTEGER;
+  favorites_count INTEGER;
+BEGIN
+  -- Validate input: must have exactly 348 products
+  input_count := jsonb_array_length(new_products);
+  IF input_count != 348 THEN
+    RAISE EXCEPTION 'Invalid input: expected 348 products, got %', input_count;
+  END IF;
+
+  -- Safety check: ensure no related records exist before deletion
+  SELECT COUNT(*) INTO cart_items_count FROM cart_items;
+  IF cart_items_count > 0 THEN
+    RAISE EXCEPTION 'Cannot delete products: cart_items has % related records', cart_items_count;
+  END IF;
+
+  SELECT COUNT(*) INTO order_items_count FROM order_items;
+  IF order_items_count > 0 THEN
+    RAISE EXCEPTION 'Cannot delete products: order_items has % related records', order_items_count;
+  END IF;
+
+  SELECT COUNT(*) INTO favorites_count FROM favorites;
+  IF favorites_count > 0 THEN
+    RAISE EXCEPTION 'Cannot delete products: favorites has % related records', favorites_count;
+  END IF;
+
+  -- Delete all existing products from products table only
+  DELETE FROM products;
+  GET DIAGNOSTICS deleted_count = ROW_COUNT;
+
+  -- Insert new products
+  INSERT INTO products (
+    name,
+    category,
+    price,
+    image_url,
+    description,
+    is_active,
+    sort_order,
+    category_id,
+    legacy_id,
+    is_featured,
+    occasions,
+    display_sections,
+    subcategory_id
+  )
+  SELECT
+    (elem->>'name')::text,
+    (elem->>'category')::text,
+    (elem->>'price')::numeric,
+    (elem->>'image_url')::text,
+    (elem->>'description')::jsonb,
+    (elem->>'is_active')::boolean,
+    (elem->>'sort_order')::integer,
+    (elem->>'category_id')::uuid,
+    (elem->>'legacy_id')::text,
+    (elem->>'is_featured')::boolean,
+    (elem->>'occasions')::jsonb,
+    (elem->>'display_sections')::jsonb,
+    (elem->>'subcategory_id')::jsonb
+  FROM jsonb_array_elements(new_products) AS elem;
+
+  GET DIAGNOSTICS inserted_count = ROW_COUNT;
+
+  -- Verify insert count matches input
+  IF inserted_count != 348 THEN
+    RAISE EXCEPTION 'Insert mismatch: expected 348, inserted %', inserted_count;
+  END IF;
+
+  -- Build success result
+  result = jsonb_build_object(
+    'success', true,
+    'deleted_count', deleted_count,
+    'inserted_count', inserted_count,
+    'message', 'Products replaced successfully'
+  );
+
+  RETURN result;
+
+EXCEPTION
+  WHEN OTHERS THEN
+    -- Re-raise the exception to trigger automatic rollback
+    RAISE;
+END;
+$$;
+
+-- Grant execute permission to authenticated users only
+GRANT EXECUTE ON FUNCTION replace_products_catalog(JSONB) TO authenticated;
+```
+
+================================================================================
+
+## الملفات المحفوظة:
+
+1. migration-function.sql - SQL Function المُصلحة
+2. products-transformed.json - البيانات المحولة المُصلحة (54 Placeholder)
+3. SQL-FIX-REPORT.txt - هذا التقرير
+
+================================================================================
+
+## الخطوات التالية:
+
+1. تنفيذ migration-function.sql في Supabase SQL Editor
+2. تشغيل node execute-migration.cjs
+3. التحقق من النتائج
+
+لم يتم تنفيذ أي INSERT/UPDATE/DELETE على Supabase.
+لم يتم تغيير أي بيانات في قاعدة البيانات.

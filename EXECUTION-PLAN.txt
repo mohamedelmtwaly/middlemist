@@ -1,0 +1,117 @@
+خطة تنفيذ استبدال كتالوج منتجات Middlemist
+================================================================================
+
+## المتطلبات المسبقة:
+
+1. ✓ products-transformed-null-images.json جاهز (348 منتج، 294 بصورة، 54 بimage_url=null)
+2. ✓ migration-function.sql جاهز (دالة replace_products_catalog)
+3. ✓ Backup موجود: products-backup-2026-11-12.json (181 منتج)
+4. ✓ Placeholder.svg موجود محلياً (public/placeholder.svg)
+5. ⚠ يجب التحقق من أن عمود image_url في جدول products يقبل NULL
+
+## خطوات التنفيذ:
+
+### الخطوة 1: التحقق من قاعدة البيانات (READ ONLY)
+```sql
+-- التحقق من أن image_url يقبل NULL
+SELECT column_name, is_nullable
+FROM information_schema.columns
+WHERE table_schema = 'public'
+  AND table_name = 'products'
+  AND column_name = 'image_url';
+```
+
+إذا كانت is_nullable = NO، يجب تعديل العمود أولاً:
+```sql
+ALTER TABLE public.products ALTER COLUMN image_url DROP NOT NULL;
+```
+
+### الخطوة 2: رفع placeholder.svg إلى Supabase Storage
+- المسار: product-images/placeholder.svg (جذر Bucket)
+- استخدم Supabase Dashboard أو API
+
+### الخطوة 3: إنشاء ملف تنفيذ السكريبت (execute-migration-v2.cjs)
+- يقرأ products-transformed-null-images.json
+- يستدعي replace_products_catalog عبر RPC
+- يعرض النتيجة
+
+### الخطوة 4: تثبيت الدالة في Supabase
+```sql
+-- نسخ محتوى migration-function.sql بالكامل
+-- تنفيذه في Supabase SQL Editor
+```
+
+### الخطوة 5: تنفيذ السكريبت
+```bash
+node execute-migration-v2.cjs
+```
+
+### الخطوة 6: التحقق بعد التنفيذ
+```sql
+-- التحقق من عدد المنتجات
+SELECT COUNT(*) FROM public.products;
+
+-- التحقق من المنتجات بimage_url = null
+SELECT COUNT(*) FROM public.products WHERE image_url IS NULL;
+
+-- التحقق من المنتجات بصور حقيقية
+SELECT COUNT(*) FROM public.products WHERE image_url IS NOT NULL;
+```
+
+## ملف التنفيذ المقترح:
+
+### execute-migration-v2.cjs
+
+```javascript
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+require('dotenv').config({ path: '.env.local' });
+
+const supabaseUrl = process.env.VITE_SUPABASE_URL;
+const supabaseServiceKey = process.env.SUPABASE_SECRET_KEY;
+
+const supabase = createClient(supabaseUrl, supabaseServiceKey);
+
+async function executeMigration() {
+  console.log('بدء تنفيذ استبدال كتالوج المنتجات...');
+
+  // Load products
+  const productsPath = path.join(__dirname, 'products-transformed-null-images.json');
+  const productsData = JSON.parse(fs.readFileSync(productsPath, 'utf8'));
+
+  console.log(`عدد المنتجات: ${productsData.length}`);
+
+  // Call the function
+  const { data, error } = await supabase
+    .rpc('replace_products_catalog', { new_products: productsData });
+
+  if (error) {
+    console.error('فشل التنفيذ:', error);
+    process.exit(1);
+  }
+
+  console.log('نجح التنفيذ:', data);
+}
+
+executeMigration();
+```
+
+## ملاحظات أمنية:
+
+1. ⚠ SUPABASE_SECRET_KEY يستخدم فقط في هذا السكريبت
+2. ⚠ لا يتم وضع المفتاح في ملفات Frontend
+3. ⚠ لا يتم وضع المفتاح في Git
+4. ⚠ السكريبت يعمل فقط من السيرفر أو بيئة local
+
+## التراجع (Rollback):
+
+إذا فشل التنفيذ، يمكن استعادة المنتجات الـ181 من:
+- products-backup-2026-11-12.json
+
+## النتائج المتوقعة:
+
+- 181 منتج قديم → 0
+- 348 منتج جديد → 348
+- 294 منتج بصورة حقيقية
+- 54 منتج بimage_url = null

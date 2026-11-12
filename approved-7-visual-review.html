@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مراجعة بصرية للصور السبعة المرشحة</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            direction: rtl;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .image-container {
+            flex-shrink: 0;
+            width: 300px;
+            height: 300px;
+            background: #f0f0f0;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .image-container.error {
+            background: #fee;
+            border: 2px solid #fcc;
+        }
+
+        .error-message {
+            color: #c00;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        .info {
+            flex: 1;
+        }
+
+        .product-name {
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .image-name {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 8px;
+            font-family: 'Courier New', monospace;
+            background: #f0f0f0;
+            padding: 8px 12px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .status.found {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status.not-found {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .path {
+            font-size: 12px;
+            color: #999;
+            margin-top: 8px;
+            word-break: break-all;
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>مراجعة بصرية للصور السبعة المرشحة</h1>
+    <p class="subtitle">لتحديث image_url في قاعدة البيانات Supabase</p>
+
+    <div class="container">
+        <div class="warning">
+            ⚠️ هذا ملف للمراجعة البصرية فقط - لن يتم تعديل أي بيانات
+        </div>
+
+        <div id="products"></div>
+
+        <div class="footer">
+            <p>المسار المحلي: src/assets/middlemist-images/</p>
+            <p>عدد الصور المراجعة: 7</p>
+        </div>
+    </div>
+
+    <script>
+        const products = [
+            {
+                productName: "باقة خطوبة",
+                imageFile: "custom-print-025.webp",
+                productId: "52c3758d-22d3-404f-ae57-40bcbaff10bf"
+            },
+            {
+                productName: "باقة ذكرى زواج",
+                imageFile: "balloon-arrangement-051.webp",
+                productId: "ce3e2098-fb01-47ea-9949-a3ae4737fd31"
+            },
+            {
+                productName: "بوكس ورد طبيعي",
+                imageFile: "gift-box-003.webp",
+                productId: "d0a195ee-b660-48e2-855e-0f80e8df522e"
+            },
+            {
+                productName: "سلة مواليد",
+                imageFile: "flower-basket-003.webp",
+                productId: "f03af2fc-8037-430c-9ad9-0607749019fb"
+            },
+            {
+                productName: "مسكة عروس صناعي",
+                imageFile: "bridal-bouquet-004.webp",
+                productId: "08ad63ad-0ff5-4087-9521-c82605238e30"
+            },
+            {
+                productName: "باقة تخرج",
+                imageFile: "rose-bouquet-100.webp",
+                productId: "25bb23f1-cbb5-4d86-887f-5898edd4746a"
+            },
+            {
+                productName: "دبدوب استيتش",
+                imageFile: "teddy-bear-002.webp",
+                productId: "0f79ad41-db61-4c1e-bdcf-df5dc0dcb3c8"
+            }
+        ];
+
+        const container = document.getElementById('products');
+
+        products.forEach((product, index) => {
+            const imagePath = `src/assets/middlemist-images/${product.imageFile}`;
+            const card = document.createElement('div');
+            card.className = 'product-card';
+
+            const imageContainer = document.createElement('div');
+            imageContainer.className = 'image-container';
+
+            const img = document.createElement('img');
+            img.src = imagePath;
+            img.alt = product.productName;
+            img.onerror = function() {
+                imageContainer.classList.add('error');
+                imageContainer.innerHTML = `<div class="error-message">❌ الصورة غير موجودة<br>${product.imageFile}</div>`;
+            };
+            img.onload = function() {
+                imageContainer.classList.remove('error');
+            };
+
+            imageContainer.appendChild(img);
+
+            const info = document.createElement('div');
+            info.className = 'info';
+
+            const productName = document.createElement('div');
+            productName.className = 'product-name';
+            productName.textContent = `${index + 1}. ${product.productName}`;
+
+            const imageName = document.createElement('div');
+            imageName.className = 'image-name';
+            imageName.textContent = `📁 ${product.imageFile}`;
+
+            const productId = document.createElement('div');
+            productId.className = 'path';
+            productId.textContent = `🆔 Product ID: ${product.productId}`;
+
+            const storageUrl = document.createElement('div');
+            storageUrl.className = 'path';
+            storageUrl.textContent = `🔗 Storage: products/${product.imageFile}`;
+
+            const publicUrl = document.createElement('div');
+            publicUrl.className = 'path';
+            publicUrl.textContent = `🌐 Public URL: https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/${product.imageFile}`;
+
+            const status = document.createElement('div');
+            status.className = 'status';
+            status.textContent = 'جاري التحقق...';
+
+            info.appendChild(productName);
+            info.appendChild(imageName);
+            info.appendChild(productId);
+            info.appendChild(storageUrl);
+            info.appendChild(publicUrl);
+            info.appendChild(status);
+
+            card.appendChild(imageContainer);
+            card.appendChild(info);
+
+            container.appendChild(card);
+
+            // Check if image exists
+            img.onload = function() {
+                status.textContent = '✓ الصورة موجودة محليًا';
+                status.className = 'status found';
+            };
+
+            img.onerror = function() {
+                status.textContent = '✗ الصورة غير موجودة محليًا';
+                status.className = 'status not-found';
+            };
+        });
+    </script>
+</body>
+</html>

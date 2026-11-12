@@ -1,0 +1,256 @@
+تقرير مصادر صور التصنيفات في المتجر
+================================================================================
+
+## ملخص:
+
+المشروع يستخدم ثلاثة مصادر للصور مع الأولوية:
+1. **الأولوية العليا:** `categories.image_url` من Supabase Storage
+2. **الأولوية الثانية:** صور محلية من مجلد assets/products (fallback)
+3. **الأولوية الثالثة:** صورة hero افتراضية (للصفحة الرئيسية فقط)
+
+---
+
+## 1. الصفحة الرئيسية (src/routes/index.tsx)
+
+**السطر 705:**
+```javascript
+<img src={c.image_url ?? categoryImages[c.name_ar] ?? hero} alt={c.name_ar} />
+```
+
+**الأولوية:**
+1. `c.image_url` - من قاعدة بيانات Supabase (categories table)
+2. `categoryImages[c.name_ar]` - من store-data.ts (صور محلية)
+3. `hero` - من assets/hero.jpg (صورة افتراضية)
+
+**الغرض:**
+عرض التصنيفات الـ15 في الصفحة الرئيسية
+
+---
+
+## 2. لوحة الإدارة (src/routes/admin.categories.tsx)
+
+**السطر 260, 327, 411, 450, 508, 549:**
+```javascript
+src={mainCategory.image_url || defaultCategoryImages[mainCategory.name_ar]}
+src={subCategory.image_url || defaultCategoryImages[subCategory.name_ar]}
+```
+
+**الأولوية:**
+1. `mainCategory.image_url` أو `subCategory.image_url` - من Supabase
+2. `defaultCategoryImages[category.name_ar]` - من assets/products (محلية)
+
+**الغرض:**
+عرض التصنيفات في لوحة الإدارة
+
+---
+
+## 3. مصادر الصور المحلية (Fallback)
+
+### 3.1 categoryImages في src/lib/store-data.ts (السطر 48-61):
+
+```javascript
+export const categoryImages: Record<string, string> = {
+  "مسكات العروس": bridalNatural,        // src/assets/products/bridal-natural.jpg
+  "باقات الورد": casablanca,            // src/assets/products/casablanca.jpg
+  "باقات المناسبات": birthday,         // src/assets/products/birthday.jpg
+  "بوكسات الهدايا": giftBoxRose,        // src/assets/products/gift-box-rose.jpg
+  "الفازات": naturalVase,               // src/assets/products/natural-vase.jpg
+  "الأستاندات": royalStand,             // src/assets/products/royal-stand.jpg
+  "سلات الورد": flowerBasket,           // src/assets/products/flower-basket.jpg
+  "الورد والشوكولاتة": roseChocolate,   // src/assets/products/rose-chocolate.jpg
+  "باقات الورد والهدايا": rosesTeddy,   // src/assets/products/roses-teddy.jpg
+  "البالونات": heliumBalloons,         // src/assets/products/helium-balloons.jpg
+  "الدباديب": teddyMedium,              // src/assets/products/teddy-medium.jpg
+  "الطباعة والإضافات": printedTags,    // src/assets/products/printed-tags.jpg
+};
+```
+
+**المصدر:** جميع الصور من `src/assets/products/*.jpg` (محلية داخل المشروع)
+
+**الملاحظة:**
+- يحتوي على اسم تصنيف قديم: "الورد والشوكولاتة" (غير موجود في قاعدة البيانات الجديدة)
+- لا يحتوي على "الطباعة والإضافات" الصحيح، لكن يحتوي عليه في القائمة
+
+---
+
+### 3.2 defaultCategoryImages في src/routes/admin.categories.tsx (السطر 36-49):
+
+```javascript
+const defaultCategoryImages: Record<string, string> = {
+  'مسكات العروس': bridalNatural,        // src/assets/products/bridal-natural.jpg
+  'باقات الورد': redRose,               // src/assets/products/red-rose.jpg
+  'باقات المناسبات': birthday,          // src/assets/products/birthday.jpg
+  'بوكسات الهدايا': giftBoxRose,        // src/assets/products/gift-box-rose.jpg
+  'الفازات': naturalVase,               // src/assets/products/natural-vase.jpg
+  'الأستاندات': royalStand,             // src/assets/products/royal-stand.jpg
+  'سلات الورد': flowerBasket,           // src/assets/products/flower-basket.jpg
+  'الورد والشوكولاتة': roseChocolate,   // src/assets/products/rose-chocolate.jpg
+  'باقات الورد والهدايا': rosesTeddy,   // src/assets/products/roses-teddy.jpg
+  'البالونات': heliumBalloons,          // src/assets/products/helium-balloons.jpg
+  'الدباديب': teddyMedium,              // src/assets/products/teddy-medium.jpg
+  'الطباعة والإضافات': printedTags,    // src/assets/products/printed-tags.jpg
+};
+```
+
+**المصدر:** جميع الصور من `src/assets/products/*.jpg` (محلية داخل المشروع)
+
+**الملاحظة:**
+- يحتوي على اسم تصنيف قديم: "الورد والشوكولاتة"
+- يحتوي على اسم تصنيف قديم: "باقات الورد والهدايا"
+
+---
+
+## 4. الصور المحلية المتاحة في المشروع
+
+المصدر: `src/assets/products/*.jpg`
+
+الملفات المتاحة:
+1. bridal-natural.jpg    → مسكات العروس
+2. red-rose.jpg          → باقات الورد
+3. birthday.jpg          → باقات المناسبات
+4. gift-box-rose.jpg     → بوكسات الهدايا
+5. natural-vase.jpg      → الفازات
+6. royal-stand.jpg       → الأستاندات
+7. flower-basket.jpg     → سلات الورد
+8. rose-chocolate.jpg    → الورد والشوكولاتة (قديم)
+9. roses-teddy.jpg       → باقات الورد والهدايا (قديم)
+10. helium-balloons.jpg  → البالونات
+11. teddy-medium.jpg     → الدباديب
+12. printed-tags.jpg     → الطباعة والإضافات
+
+**ملفات إضافية غير مستخدمة في التصنيفات:**
+- acrylic-print.jpg
+- acrylic-stand.jpg
+- bridal-artificial.jpg
+- bridal-vase.jpg
+- graduation.jpg
+- kinder-box.jpg
+- newborn-basket.jpg
+- newborn-vase.jpg
+- newborn.jpg
+- number-balloons.jpg
+- pastel.jpg
+- roses-necklace.jpg
+- stitch-teddy.jpg
+- thankyou.jpg
+- white-rose.jpg
+
+---
+
+## 5. مصدر الصور من Supabase Storage
+
+### رفع صور التصنيفات (src/lib/use-admin-categories.ts):
+
+**السطر 27-64:**
+```javascript
+export async function uploadCategoryImage(file: File): Promise<string> {
+  // ...
+  const filename = `category-${timestamp}-${random}.${extension}`;
+  
+  // Upload to Supabase Storage
+  const { data, error } = await supabase.storage
+    .from('product-images')
+    .upload(filename, file, {
+      upsert: false,
+      contentType: file.type,
+    });
+  
+  // Get public URL
+  const { data: { publicUrl } } = supabase.storage
+    .from('product-images')
+    .getPublicUrl(filename);
+  
+  return publicUrl;
+}
+```
+
+**المسار في Supabase Storage:**
+- Bucket: `product-images`
+- مسار الملف: `category-{timestamp}-{random}.{extension}`
+- مثال: `category-1732123456789-a1b2c3d.jpg`
+
+**الرابط العام:**
+```
+https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/category-{timestamp}-{random}.{extension}
+```
+
+---
+
+## 6. الحقول المستخدمة في قاعدة البيانات
+
+### جدول categories (Supabase):
+- `image_url` (string | null) - رابط الصورة من Supabase Storage
+- `name_ar` (string) - اسم التصنيف بالعربية
+- `name_en` (string | null) - اسم التصنيف بالإنجليزية
+- `slug` (string | null) - slug للتصنيف
+- `is_active` (boolean) - حالة النشاط
+- `sort_order` (number) - ترتيب العرض
+- `parent_id` (string | null) - معرف التصنيف الأب
+
+---
+
+## 7. لكل تصنيف: المصدر الحالي
+
+### التصنيفات الرئيسية (12 تصنيف):
+
+| اسم التصنيف | image_url من Supabase | Fallback من assets | المسار المحلي |
+|-------------|---------------------|-------------------|---------------|
+| مسكات العروس | يُستخدم إذا موجود | bridal-natural.jpg | src/assets/products/bridal-natural.jpg |
+| باقات الورد | يُستخدم إذا موجود | casablanca.jpg (store-data) أو red-rose.jpg (admin) | src/assets/products/casablanca.jpg أو red-rose.jpg |
+| باقات المناسبات | يُستخدم إذا موجود | birthday.jpg | src/assets/products/birthday.jpg |
+| بوكسات الهدايا | يُستخدم إذا موجود | gift-box-rose.jpg | src/assets/products/gift-box-rose.jpg |
+| الفازات | يُستخدم إذا موجود | natural-vase.jpg | src/assets/products/natural-vase.jpg |
+| الأستاندات | يُستخدم إذا موجود | royal-stand.jpg | src/assets/products/royal-stand.jpg |
+| سلات الورد | يُستخدم إذا موجود | flower-basket.jpg | src/assets/products/flower-basket.jpg |
+| الورد والشوكولاتة (قديم) | يُستخدم إذا موجود | rose-chocolate.jpg | src/assets/products/rose-chocolate.jpg |
+| باقات الورد والهدايا (قديم) | يُستخدم إذا موجود | roses-teddy.jpg | src/assets/products/roses-teddy.jpg |
+| البالونات | يُستخدم إذا موجود | helium-balloons.jpg | src/assets/products/helium-balloons.jpg |
+| الدباديب | يُستخدم إذا موجود | teddy-medium.jpg | src/assets/products/teddy-medium.jpg |
+| الطباعة والإضافات | يُستخدم إذا موجود | printed-tags.jpg | src/assets/products/printed-tags.jpg |
+
+---
+
+## 8. ملاحظات مهمة:
+
+### 8.1 أسماء تصنيفات قديمة في fallback:
+- "الورد والشوكولاتة" - غير موجود في قاعدة البيانات الجديدة
+- "باقات الورد والهدايا" - غير موجود في قاعدة البيانات الجديدة
+
+### 8.2 الصور المحلية:
+- موجودة داخل المشروع في `src/assets/products/`
+- يتم بناؤها تلقائياً في build و served من static assets
+- ليست في Supabase Storage
+
+### 8.3 الصور من Supabase:
+- يتم رفعها عبر لوحة الإدارة
+- تخزن في bucket `product-images`
+- الروابط تبدأ بـ: `https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/`
+
+### 8.4 الأولوية في العرض:
+1. إذا `categories.image_url` ليس null → استخدام رابط Supabase
+2. إذا `categories.image_url` هو null → استخدام الصورة المحلية من fallback
+3. (الصفحة الرئيسية فقط) إذا لا يوجد fallback → استخدام hero.jpg
+
+---
+
+## 9. الخلاصة:
+
+**المصدر الأساسي:** Supabase Storage (categories.image_url)
+
+**المصدر الاحتياطي (Fallback):** صور محلية من src/assets/products/
+
+**الموقع:**
+- Supabase Storage: `product-images/category-{timestamp}-{random}.{extension}`
+- المشروع المحلي: `src/assets/products/*.jpg`
+
+**الحالة الحالية:**
+- لوحة الإدارة ترفع صور إلى Supabase Storage
+- الصفحة الرئيسية ولوحة الإدارة تستخدم image_url أولاً
+- إذا لم يوجد image_url، تستخدم الصور المحلية
+- الصور المحلية موجودة في المشروع وليست في Supabase
+
+---
+
+لم يتم تعديل أي ملف.
+لم يتم حذف أو رفع أي صورة.
+لم يتم تغيير قاعدة البيانات.

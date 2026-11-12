@@ -1,0 +1,6266 @@
+[
+  {
+    "name": "مسكة عروس",
+    "category": "مسكة عروس",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/bridal-bouquet-001.webp",
+    "description": {
+      "ar": "بالورد الهولندي بنوع الورد توليب،جولبير،اوستوما،بيبي روس،وكس فلاور",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 1,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "مسكه العروس",
+    "category": "مسكة عروس",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/bridal-bouquet-002.webp",
+    "description": {
+      "ar": "على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 2,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "مسكه العروس",
+    "category": "مسكة عروس",
+    "price": 700,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/bridal-bouquet-003.webp",
+    "description": {
+      "ar": "ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 3,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "مسكه العروس صناعية",
+    "category": "مسكة عروس",
+    "price": 450,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/bridal-bouquet-004.webp",
+    "description": {
+      "ar": "ورد صناعي على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 4,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "مسكه عروس",
+    "category": "مسكة عروس",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/bridal-bouquet-005.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 5,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة العروسه",
+    "category": "مسكة عروس",
+    "price": 230,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-001.webp",
+    "description": {
+      "ar": "ورد مع فازه و استيكر عروسه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 6,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "طباعات اكرلك على حسب الطلب",
+    "category": "مسكة عروس",
+    "price": 185,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-001.webp",
+    "description": {
+      "ar": "طباعات ونحت حسب الطلب طباعات شرايط ونحت حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 7,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "طباعه",
+    "category": "مسكة عروس",
+    "price": 9,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-002.webp",
+    "description": {
+      "ar": "بكيج ثيمات مع طلب العدد حسب رغبت العميل",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 8,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "ثيم العيد",
+    "category": "مسكة عروس",
+    "price": 349,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-003.webp",
+    "description": {
+      "ar": "طباعه ثيم عيد الاضحى حسب طلب العميل بالكميه والحجم",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 9,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "اكرليك",
+    "category": "مسكة عروس",
+    "price": 330,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-004.webp",
+    "description": {
+      "ar": "طباعه اسم مولود على اكرليك حسب المقاس والون",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 10,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "طباعه ملونه وعادي",
+    "category": "مسكة عروس",
+    "price": 5,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-005.webp",
+    "description": {
+      "ar": "طباعه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 11,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "طباعه أكواب",
+    "category": "مسكة عروس",
+    "price": 6,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-006.webp",
+    "description": {
+      "ar": "طباعه اطواب استاندات",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 12,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "اكرليك ذهبي 3 ملي",
+    "category": "مسكة عروس",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-007.webp",
+    "description": {
+      "ar": "اكرليك مع ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 13,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "طباعه اكرليك",
+    "category": "مسكة عروس",
+    "price": 25,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-008.webp",
+    "description": {
+      "ar": "تغريسات اكرليك",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 14,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "لقو نحت اكرليك",
+    "category": "مسكة عروس",
+    "price": 45,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/bridal-bouquet-006.webp",
+    "description": {
+      "ar": "لقو مسكة عروس نحت ليز اكرليك علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 15,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "تغرسه اكرليك",
+    "category": "مسكة عروس",
+    "price": 35,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-009.webp",
+    "description": {
+      "ar": "تغرسيه اكرليك قص ليزر حسب الطلب للكيك وباقات الورد",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 16,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "طباعه استيكر",
+    "category": "مسكة عروس",
+    "price": 30,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-010.webp",
+    "description": {
+      "ar": "طباعه استيكر علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 17,
+    "category_id": "57d70a1f-20b8-4dbf-800c-6ea29de5a778",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "عقد ورد طبيعي",
+    "category": "باقات وهدايا التخرج",
+    "price": 149,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-necklace-001.webp",
+    "description": {
+      "ar": "عقد ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 18,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة العروس 1",
+    "category": "باقات وهدايا التخرج",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-001.webp",
+    "description": {
+      "ar": "باقت عروس مع تغير صورة الفستان مع أضافه اسم او عباره علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 19,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بكج تخرج ميدل ميست فلاور",
+    "category": "باقات وهدايا التخرج",
+    "price": 339,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-001.webp",
+    "description": {
+      "ar": "باقه ورد و كيك و بالونات هيلوم و كرت",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 20,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بكج تخرج ميدل ميست فلاور 2",
+    "category": "باقات وهدايا التخرج",
+    "price": 336,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-002.webp",
+    "description": {
+      "ar": "باقه ورد وكيك و بالونات هيلوم و كرت",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 21,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بكج تخرج ميدل ميست فلاور 3",
+    "category": "باقات وهدايا التخرج",
+    "price": 299,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-003.webp",
+    "description": {
+      "ar": "باقة ورد و بالونات هيلوم و لوحة تخرج",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 22,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بكج هدايا لجميع المناسبات والافراح",
+    "category": "باقات وهدايا التخرج",
+    "price": 280,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-002.webp",
+    "description": {
+      "ar": "ورد و سلسال فضي علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 23,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "خاتم براند You مطلي فضه عيار925",
+    "category": "باقات وهدايا التخرج",
+    "price": 130,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-003.webp",
+    "description": {
+      "ar": "خاتم مطلي فضه براند You",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 24,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه للمناسات الخاصه",
+    "category": "باقات وهدايا التخرج",
+    "price": 150,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-004.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 25,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "حلاوه فاخره",
+    "category": "باقات وهدايا التخرج",
+    "price": 69,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/chocolate-gift-001.webp",
+    "description": {
+      "ar": "حلاوه تاوه شوكولاته فاخره",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 26,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "شوكولاته هانوفريان وفازة ورد طبيعي",
+    "category": "باقات وهدايا التخرج",
+    "price": 369,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-002.webp",
+    "description": {
+      "ar": "فازة ورد شوكولاته هانوفريان",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 27,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "شوكولاته لافيرا مع الورد",
+    "category": "باقات وهدايا التخرج",
+    "price": 269,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/chocolate-gift-002.webp",
+    "description": {
+      "ar": "شوكولاته مع الورد على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 28,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "شوكولاتات",
+    "category": "باقات وهدايا التخرج",
+    "price": 249,
+    "image_url": null,
+    "description": {
+      "ar": "شوكولاته باتشي مع الورد ورد مع شكلت",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 29,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "شوكولاته هانوفريان الفاخره",
+    "category": "باقات وهدايا التخرج",
+    "price": 349,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/chocolate-gift-004.webp",
+    "description": {
+      "ar": "شوكولاته لندن الفاخره مع تنسيق ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 30,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "شوكولاته هانوفريان وفازة ورد طبيعي",
+    "category": "باقات وهدايا التخرج",
+    "price": 369,
+    "image_url": null,
+    "description": {
+      "ar": "فازة ورد شوكولاته هانوفريان",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 31,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة روز شوكلت",
+    "category": "باقات وهدايا التخرج",
+    "price": 229,
+    "image_url": null,
+    "description": {
+      "ar": "باقة ورد ونصف كيلو شوكولاته من روز شوكلت",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 32,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة روز شوكلت 2",
+    "category": "باقات وهدايا التخرج",
+    "price": 249,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/chocolate-gift-006.webp",
+    "description": {
+      "ar": "شوكولاته روز شوكلت ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 33,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة روز شوكلت 1",
+    "category": "باقات وهدايا التخرج",
+    "price": 249,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/gift-box-001.webp",
+    "description": {
+      "ar": "بكس الشوكلاته وباقة ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 34,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "شوكولاته باتشي وباقة ميدل ميست",
+    "category": "باقات وهدايا التخرج",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/chocolate-gift-007.webp",
+    "description": {
+      "ar": "ورد طبيعي شوكولاته",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 35,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكيه ورد مع شوكولاته",
+    "category": "باقات وهدايا التخرج",
+    "price": 289,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/chocolate-gift-008.webp",
+    "description": {
+      "ar": "الشوكولاتة حسب الطلب مع الورد",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 36,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "كيك جاناش",
+    "category": "باقات وهدايا التخرج",
+    "price": 75,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/chocolate-gift-009.webp",
+    "description": {
+      "ar": "كيك جاناش على حسب الطلب مانجو . توت . فراوله . شوكلت",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 37,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "شوكولاته اني وداني مع الورد",
+    "category": "باقات وهدايا التخرج",
+    "price": 280,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/chocolate-gift-010.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع شوكولاته علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 38,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "شوكولاته لافيرا مع ورد طبيعي",
+    "category": "باقات وهدايا التخرج",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/chocolate-gift-011.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 39,
+    "category_id": "44ab4768-8ab8-49a2-964e-2779d3860a24",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استاند ميدل مست الملكي",
+    "category": "استاندات",
+    "price": 599,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-stand-001.webp",
+    "description": {
+      "ar": "استاند ملكه اسود بصدريه جالد بالورد الصناعي الملمس الطبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 40,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "حامل كرت اكرليك",
+    "category": "استاندات",
+    "price": 1,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-011.webp",
+    "description": {
+      "ar": "حامل كرت طباعه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 41,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استاند هدايا",
+    "category": "استاندات",
+    "price": 100,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-stand-002.webp",
+    "description": {
+      "ar": "استاند مع ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 42,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "تنسيق استاند ملكه",
+    "category": "استاندات",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-stand-003.webp",
+    "description": {
+      "ar": "استاند مع ورد و تغريسه علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 43,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "تنسيق استاند مع الورد",
+    "category": "استاندات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-stand-004.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب مع استاند",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 44,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "تنسيق اكرليك مع هدايا",
+    "category": "استاندات",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-012.webp",
+    "description": {
+      "ar": "اكريلك و ورد طبيعي على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 45,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "تنسيق استاند مواليد",
+    "category": "استاندات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-stand-005.webp",
+    "description": {
+      "ar": "تنسيق استاند مع ورد علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 46,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استاند ملكي صغير",
+    "category": "استاندات",
+    "price": 150,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-stand-006.webp",
+    "description": {
+      "ar": "تسيق مع الورد على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 47,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استاند مولود 2",
+    "category": "استاندات",
+    "price": 300,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-stand-007.webp",
+    "description": {
+      "ar": "تنسيق استاند مع ورد طبيعي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 48,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "تنسيق استاند ورد مع شوكلت",
+    "category": "استاندات",
+    "price": 240,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-stand-008.webp",
+    "description": {
+      "ar": "تنسيق استاند مع ورد حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 49,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "تنسيق استاند ورد",
+    "category": "استاندات",
+    "price": 150,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-stand-009.webp",
+    "description": {
+      "ar": "استند و ورود",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 50,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استاند",
+    "category": "استاندات",
+    "price": 249,
+    "image_url": null,
+    "description": {
+      "ar": "استاند جلد بالورد مع اضافة عبارة بالكرليك حسب رغبة العميل",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 51,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استاند اكرليك",
+    "category": "استاندات",
+    "price": 299,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-013.webp",
+    "description": {
+      "ar": "استاند اكرليك بصدريه باوردالصناعي ملمس طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 52,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استاند",
+    "category": "استاندات",
+    "price": 299,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-014.webp",
+    "description": {
+      "ar": "تفصيل استاند اكرليك بعباره ع حسب مناسبة العميل",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 53,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استاند ميدل مست 2",
+    "category": "استاندات",
+    "price": 329,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-015.webp",
+    "description": {
+      "ar": "تنسيق مبلغ مالي على استاند اسودبشريط ذهبي وتغير لون الورد علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 54,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استاند ميدل مست",
+    "category": "استاندات",
+    "price": 349,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-stand-011.webp",
+    "description": {
+      "ar": "استاند مخمل بصدريه بتغليف الهديا بتنسيق الورد حسب رغبت العميل",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 55,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استاند ملكه مخمل",
+    "category": "استاندات",
+    "price": 550,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-stand-012.webp",
+    "description": {
+      "ar": "تنسيق الورد مع الصدريه مع تغير العباره حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 56,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استاند ورد بصدريه بتغليف عطور",
+    "category": "استاندات",
+    "price": 329,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-016.webp",
+    "description": {
+      "ar": "استاند اكرليك بصدريه بتغليف عطور مع تنسيق الورد حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 57,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استاند الترقيه",
+    "category": "استاندات",
+    "price": 239,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-stand-013.webp",
+    "description": {
+      "ar": "استاند مع ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 58,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استاند المولود مع الشكلانه",
+    "category": "استاندات",
+    "price": 279,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-stand-014.webp",
+    "description": {
+      "ar": "ورد و استاند و شكلاته",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 59,
+    "category_id": "04c3fa1e-7f19-499e-b401-4a1ae3fb2e1d",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "شرايط مطبوعه",
+    "category": "شرايط",
+    "price": 30,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-017.webp",
+    "description": {
+      "ar": "مكتوبه عيد مبارك",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 60,
+    "category_id": "91d11ac7-df3e-4aff-a689-e043a615372c",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "سلة المشاعر",
+    "category": "سلات ورد",
+    "price": 229,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-basket-001.webp",
+    "description": {
+      "ar": "ورد طبيعي مع سله",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 61,
+    "category_id": "1972b3d0-405e-47ae-960c-1eb858279d42",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "تنسيق سلة ورد طببيعي",
+    "category": "سلات ورد",
+    "price": 170,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-basket-002.webp",
+    "description": {
+      "ar": "ورد طبيعى",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 62,
+    "category_id": "1972b3d0-405e-47ae-960c-1eb858279d42",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "سله المواليد",
+    "category": "سلات ورد",
+    "price": 280,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-basket-003.webp",
+    "description": {
+      "ar": "ورد صناعي مع سله علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 63,
+    "category_id": "1972b3d0-405e-47ae-960c-1eb858279d42",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكس كرتوني اسود",
+    "category": "بوكسات",
+    "price": 120,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/gift-box-002.webp",
+    "description": {
+      "ar": "اسود في فراشه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 64,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكس الورد الطبيعي",
+    "category": "بوكسات",
+    "price": 179,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/gift-box-003.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 65,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكس المفرحات",
+    "category": "بوكسات",
+    "price": 269,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/gift-box-004.webp",
+    "description": {
+      "ar": "ورد و شكلاته و بوكس",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 66,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكس شوكولاته كندر",
+    "category": "بوكسات",
+    "price": 219,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/gift-box-005.webp",
+    "description": {
+      "ar": "بوكس ورد مع اضافة شوكولاته كندر",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 67,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "تنسيق هديه من فايندرا",
+    "category": "بوكسات",
+    "price": 139,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-005.webp",
+    "description": {
+      "ar": "تنسيق الورد فقط السعر لايشمل قيمة الهديه ولا توفيرها '",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 68,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "شوكولاته أني وداني مع الورد",
+    "category": "بوكسات",
+    "price": 340,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/chocolate-gift-012.webp",
+    "description": {
+      "ar": "ربع كيلو شوكولاته من اني وداني مع الورد",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 69,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بكس ميدل بيست صناعي",
+    "category": "بوكسات",
+    "price": 269,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/gift-box-006.webp",
+    "description": {
+      "ar": "بكس ميدل بيست صناعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 70,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بكس ميدل بيست 1",
+    "category": "بوكسات",
+    "price": 249,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/gift-box-007.webp",
+    "description": {
+      "ar": "بكس ميدل بيست احمر",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 71,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بكس ميدل ميست 2",
+    "category": "بوكسات",
+    "price": 249,
+    "image_url": null,
+    "description": {
+      "ar": "بكس ميدل ميست طبيعي احمر",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 72,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكس شوكولاته بالورد",
+    "category": "بوكسات",
+    "price": 289,
+    "image_url": null,
+    "description": {
+      "ar": "بوكس بالورد مع شوكولاته حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 73,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكس ميدل ميست فلاور",
+    "category": "بوكسات",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/gift-box-010.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 74,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بكج هدايا ميدل ميست فلاور الفاخر",
+    "category": "بوكسات",
+    "price": 350,
+    "image_url": null,
+    "description": {
+      "ar": "ورد و هدايا على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 75,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكس هدايا ميدل ميست",
+    "category": "بوكسات",
+    "price": 300,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/gift-box-011.webp",
+    "description": {
+      "ar": "بوكس مع هدايا و ورد على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 76,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استاند مواليد ميدل ميست فلاور",
+    "category": "بوكسات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-stand-015.webp",
+    "description": {
+      "ar": "استاندات مع ورد طبيعي على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 77,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكس هدايا ميدل ميست فلاور",
+    "category": "بوكسات",
+    "price": 180,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/gift-box-012.webp",
+    "description": {
+      "ar": "بوكس مع ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 78,
+    "category_id": "ebc12058-3f22-4a0c-bbe6-1e1b51219685",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازت المواليد",
+    "category": "فازات",
+    "price": 300,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-004.webp",
+    "description": {
+      "ar": "فازه شفافه مع ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 79,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة عبق 2",
+    "category": "فازات",
+    "price": 250,
+    "image_url": null,
+    "description": {
+      "ar": "فازه مع ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 80,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة رخاميه بالورد الصناعي",
+    "category": "فازات",
+    "price": 250,
+    "image_url": null,
+    "description": {
+      "ar": "فازة مع ورد صناعي على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 81,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة ورد مع دوار الشمس",
+    "category": "فازات",
+    "price": 180,
+    "image_url": null,
+    "description": {
+      "ar": "فازه شفافه مع ورد على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 82,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة عبق الزهور 3",
+    "category": "فازات",
+    "price": 269,
+    "image_url": null,
+    "description": {
+      "ar": "فازه مع ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 83,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازت عبق ميدل ميست",
+    "category": "فازات",
+    "price": 449,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-009.webp",
+    "description": {
+      "ar": "فازه مع ورد طبيعي على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 84,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "قازة المحبه والتقدير",
+    "category": "فازات",
+    "price": 279,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-010.webp",
+    "description": {
+      "ar": "فازه مع ورد طبيعي على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 85,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة رهام ميدل ميست",
+    "category": "فازات",
+    "price": 210,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-011.webp",
+    "description": {
+      "ar": "ورد صناعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 86,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة عبق النسيم",
+    "category": "فازات",
+    "price": 190,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-012.webp",
+    "description": {
+      "ar": "ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 87,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة عبق الزهور 3",
+    "category": "فازات",
+    "price": 188,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-013.webp",
+    "description": {
+      "ar": "فازه مع ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 88,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازت التخرج",
+    "category": "فازات",
+    "price": 225,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-014.webp",
+    "description": {
+      "ar": "فازه مع ورد طبيعي و شريطه على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 89,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة الزياره",
+    "category": "فازات",
+    "price": 180,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-015.webp",
+    "description": {
+      "ar": "فازه مع ورد صناعي على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 90,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازات مواليد ميدل ميست",
+    "category": "فازات",
+    "price": 350,
+    "image_url": null,
+    "description": {
+      "ar": "تنسيق فازات مواليد علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 91,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة المولوده ميدل ميست",
+    "category": "فازات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-016.webp",
+    "description": {
+      "ar": "فازه مع ورد طبيعي على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 92,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازت حمد لله على السلامه",
+    "category": "فازات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-017.webp",
+    "description": {
+      "ar": "فازه مع ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 93,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة االهام ميدل ميست",
+    "category": "فازات",
+    "price": 180,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-018.webp",
+    "description": {
+      "ar": "ورد صناعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 94,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازت حمد لله على السلامه والزياره 5",
+    "category": "فازات",
+    "price": 380,
+    "image_url": null,
+    "description": {
+      "ar": "فازه مع ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 95,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازت الزياره للمريض",
+    "category": "فازات",
+    "price": 330,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-020.webp",
+    "description": {
+      "ar": "فازه مع ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 96,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "تنسيق فازات هدايا ميدل ميست",
+    "category": "فازات",
+    "price": 250,
+    "image_url": null,
+    "description": {
+      "ar": "فازه مع ورد صناعي وتغليف علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 97,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازه المولوده ميدل ميست",
+    "category": "فازات",
+    "price": 260,
+    "image_url": null,
+    "description": {
+      "ar": "ورد صناعي على فازه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 98,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازت حمد لله على السلامه والزياره",
+    "category": "فازات",
+    "price": 280,
+    "image_url": null,
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 99,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازت المواليد الجدد",
+    "category": "فازات",
+    "price": 280,
+    "image_url": null,
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب مع فازه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 100,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازت التخرج والنجاح",
+    "category": "فازات",
+    "price": 280,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-025.webp",
+    "description": {
+      "ar": "فازه مع قبعه و ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 101,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازات مواليد ميدل ميست فلاور",
+    "category": "فازات",
+    "price": 280,
+    "image_url": null,
+    "description": {
+      "ar": "ورد طبيعي مع فازه على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 102,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازت مواليد ميدل ميست فلاور للمواليد",
+    "category": "فازات",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-027.webp",
+    "description": {
+      "ar": "فازه مع ورد صناعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 103,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازت المواليد الجدد ميدل ميست",
+    "category": "فازات",
+    "price": 200,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-028.webp",
+    "description": {
+      "ar": "فازه مع ورد صناعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 104,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازه حمد لله على السلامه والزياره",
+    "category": "فازات",
+    "price": 150,
+    "image_url": null,
+    "description": {
+      "ar": "فازه مع ورد صناعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 105,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازه الزياره العائليه",
+    "category": "فازات",
+    "price": 150,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-030.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 106,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازه مني الطبيعية",
+    "category": "فازات",
+    "price": 280,
+    "image_url": null,
+    "description": {
+      "ar": "فازه مع ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 107,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة ريم",
+    "category": "فازات",
+    "price": 179,
+    "image_url": null,
+    "description": {
+      "ar": "ورد طبيعي فاخر",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 108,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازت ورد صناعي",
+    "category": "فازات",
+    "price": 125,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-033.webp",
+    "description": {
+      "ar": "ورد صناعية",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 109,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "ورد جربيره",
+    "category": "فازات",
+    "price": 10,
+    "image_url": null,
+    "description": {
+      "ar": "وردطبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 110,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة ورد طبيعي ملهمه",
+    "category": "فازات",
+    "price": 349,
+    "image_url": null,
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 111,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازه الامل",
+    "category": "فازات",
+    "price": 269,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-035.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 112,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة الانوثه",
+    "category": "فازات",
+    "price": 329,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-036.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 113,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة الشروق",
+    "category": "فازات",
+    "price": 159,
+    "image_url": null,
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 114,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة الاماني",
+    "category": "فازات",
+    "price": 149,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-038.webp",
+    "description": {
+      "ar": "فازة ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 115,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة السلامه",
+    "category": "فازات",
+    "price": 349,
+    "image_url": null,
+    "description": {
+      "ar": "ورد مع فازه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 116,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازت الانثيريم",
+    "category": "فازات",
+    "price": 199,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-040.webp",
+    "description": {
+      "ar": "ورد فاخر مع فازه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 117,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة غرام",
+    "category": "فازات",
+    "price": 189,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-041.webp",
+    "description": {
+      "ar": "ورد فاخر من فازة",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 118,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة الاناقه",
+    "category": "فازات",
+    "price": 149,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-042.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 119,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة الموده",
+    "category": "فازات",
+    "price": 199,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-043.webp",
+    "description": {
+      "ar": "ورد طبيعي مع فازت شفافه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 120,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة الهام",
+    "category": "فازات",
+    "price": 379,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-044.webp",
+    "description": {
+      "ar": "فازه مع ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 121,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة بينك شفاف",
+    "category": "فازات",
+    "price": 130,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-045.webp",
+    "description": {
+      "ar": "فازت زجاج شفافه و ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 122,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة الدلفيليوم",
+    "category": "فازات",
+    "price": 279,
+    "image_url": null,
+    "description": {
+      "ar": "فازة مع اناقه من الورد",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 123,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة رخام بتصميم عصري والوان جذابه",
+    "category": "فازات",
+    "price": 279,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-047.webp",
+    "description": {
+      "ar": "فازة رخامه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 124,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة جوهره",
+    "category": "فازات",
+    "price": 369,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-004.webp",
+    "description": {
+      "ar": "تتميز هذه الفازه بالونات الجذابة يمكن تغير الالوان والعبارات حسب الرغبة",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 125,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة مولود",
+    "category": "فازات",
+    "price": 229,
+    "image_url": null,
+    "description": {
+      "ar": "من اكثر الغازات عليها طلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 126,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة عبق",
+    "category": "فازات",
+    "price": 229,
+    "image_url": null,
+    "description": {
+      "ar": "يمكنكم تغير الون الور ع حسب رغبتكم",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 127,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة منى",
+    "category": "فازات",
+    "price": 269,
+    "image_url": null,
+    "description": {
+      "ar": "يمكنكم تغير الوان الورد ع حسب رغبتكم",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 128,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة مشاعر",
+    "category": "فازات",
+    "price": 269,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-051.webp",
+    "description": {
+      "ar": "يمكنكم تغير الوان ع حسب رغبتكم",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 129,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة نجلا",
+    "category": "فازات",
+    "price": 239,
+    "image_url": null,
+    "description": {
+      "ar": "يمكنكم تغير الوان الورد ع حسب رغبتكم",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 130,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة الين",
+    "category": "فازات",
+    "price": 199,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-053.webp",
+    "description": {
+      "ar": "فازة ورد صناعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 131,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة مودة",
+    "category": "فازات",
+    "price": 239,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-054.webp",
+    "description": {
+      "ar": "فازة ورد صناعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 132,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة النجلا",
+    "category": "فازات",
+    "price": 239,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-055.webp",
+    "description": {
+      "ar": "فازة ورد صناعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 133,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة مولود ازرق",
+    "category": "فازات",
+    "price": 269,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-056.webp",
+    "description": {
+      "ar": "فازة ورد صناعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 134,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة عبق ميدل ميست",
+    "category": "فازات",
+    "price": 130,
+    "image_url": null,
+    "description": {
+      "ar": "ورد صناعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 135,
+    "category_id": "00bb1aa6-49a6-4a38-b83e-5223046274ad",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "هولكاتي ابيض",
+    "category": "دباديب",
+    "price": 70,
+    "image_url": null,
+    "description": {
+      "ar": "طوله 45 سم",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 136,
+    "category_id": "7e0404c0-0259-4548-9dc7-504687b2ff22",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "دبدوب استيتش صغير",
+    "category": "دباديب",
+    "price": 40,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/teddy-bear-002.webp",
+    "description": {
+      "ar": "لونه ازرق",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 137,
+    "category_id": "7e0404c0-0259-4548-9dc7-504687b2ff22",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "دبدوب ابو فيونكه سكري",
+    "category": "دباديب",
+    "price": 180,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/teddy-bear-003.webp",
+    "description": {
+      "ar": "في كرفته",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 138,
+    "category_id": "7e0404c0-0259-4548-9dc7-504687b2ff22",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "دبدوب بيجي ابو قلب",
+    "category": "دباديب",
+    "price": 80,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/teddy-bear-004.webp",
+    "description": {
+      "ar": "دبدوب في قلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 139,
+    "category_id": "7e0404c0-0259-4548-9dc7-504687b2ff22",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "دبدوب باندا وسط",
+    "category": "دباديب",
+    "price": 50,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/teddy-bear-005.webp",
+    "description": {
+      "ar": "في كرفته",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 140,
+    "category_id": "7e0404c0-0259-4548-9dc7-504687b2ff22",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "دبدوب باندا كبير",
+    "category": "دباديب",
+    "price": 70,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/teddy-bear-006.webp",
+    "description": {
+      "ar": "في كرفته",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 141,
+    "category_id": "7e0404c0-0259-4548-9dc7-504687b2ff22",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "دبدوب باندا ابو فنيله",
+    "category": "دباديب",
+    "price": 300,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/teddy-bear-007.webp",
+    "description": {
+      "ar": "دبدوب اسود باندا ابو فنيله",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 142,
+    "category_id": "7e0404c0-0259-4548-9dc7-504687b2ff22",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ورد ودبدوب",
+    "category": "دباديب",
+    "price": 179,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/teddy-bear-008.webp",
+    "description": {
+      "ar": "باقة ورد جميلة مع دبدوب لطيف تجمع بين جمال الورود الطازجة والحنان الدافئ للدبدوب الناعم هدية مثالية للتعبير عن المشاعر والحب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 143,
+    "category_id": "7e0404c0-0259-4548-9dc7-504687b2ff22",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "دبدوب صغير ب ألوان محتلفه",
+    "category": "دباديب",
+    "price": 49,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/teddy-bear-009.webp",
+    "description": {
+      "ar": "دبدوب صغير ابو ربطه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 144,
+    "category_id": "7e0404c0-0259-4548-9dc7-504687b2ff22",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "استيتش بنفسجي صغير",
+    "category": "دباديب",
+    "price": 35,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/teddy-bear-010.webp",
+    "description": {
+      "ar": "استيتش بنفسجي بملمس ناعم",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 145,
+    "category_id": "7e0404c0-0259-4548-9dc7-504687b2ff22",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "دبدوب صغير ابو فلينه",
+    "category": "دباديب",
+    "price": 35,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/teddy-bear-011.webp",
+    "description": {
+      "ar": "دبدوب صغير وناعم الملمس",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 146,
+    "category_id": "7e0404c0-0259-4548-9dc7-504687b2ff22",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه الاخت",
+    "category": "بالونات",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-005.webp",
+    "description": {
+      "ar": "بالونات",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 147,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه الحب 4",
+    "category": "بالونات",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-006.webp",
+    "description": {
+      "ar": "بالونات",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 148,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الحب 5",
+    "category": "بالونات",
+    "price": 50,
+    "image_url": null,
+    "description": {
+      "ar": "بالونات",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 149,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه الخاتم الفضي",
+    "category": "بالونات",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-008.webp",
+    "description": {
+      "ar": "بالون",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 150,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقات مولده",
+    "category": "بالونات",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-009.webp",
+    "description": {
+      "ar": "بالونات",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 151,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بالونات الحب 6",
+    "category": "بالونات",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-010.webp",
+    "description": {
+      "ar": "بالون",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 152,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة بالونات مولود 2",
+    "category": "بالونات",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-011.webp",
+    "description": {
+      "ar": "بالون",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 153,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقات زواج 3",
+    "category": "بالونات",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-012.webp",
+    "description": {
+      "ar": "بالونات",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 154,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه عيد ميلاد 1",
+    "category": "بالونات",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-013.webp",
+    "description": {
+      "ar": "بالونات",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 155,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد الميلاد 2",
+    "category": "بالونات",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-014.webp",
+    "description": {
+      "ar": "بالون",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 156,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بالونات ميلادي",
+    "category": "بالونات",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-015.webp",
+    "description": {
+      "ar": "باقه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 157,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بالونات منوعه",
+    "category": "بالونات",
+    "price": 5,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-016.webp",
+    "description": {
+      "ar": "مجموعه بالونات جميع الالوان",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 158,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست مولودة",
+    "category": "باقات",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-009.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 159,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الزياره 4",
+    "category": "باقات",
+    "price": 170,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-010.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي مناسبه للزيارات",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 160,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد الميلاد 2",
+    "category": "باقات",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-011.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع على حسب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 161,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه مولودة ميدل ميست",
+    "category": "باقات",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-012.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 162,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه المحبه والتقدير 3",
+    "category": "باقات",
+    "price": 200,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-013.webp",
+    "description": {
+      "ar": "باقه ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 163,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة المحبه مع الكيك",
+    "category": "باقات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/chocolate-gift-013.webp",
+    "description": {
+      "ar": "ورد مع كيك جاناش على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 164,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة حمد لله على السلامه",
+    "category": "باقات",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-014.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 165,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الزهور الطبيعية",
+    "category": "باقات",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-015.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 166,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست مولود",
+    "category": "باقات",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-016.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 167,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه الخطوبة والزواج",
+    "category": "باقات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-017.webp",
+    "description": {
+      "ar": "باقة ورد احمر للمناسبات",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 168,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست فلاور 3",
+    "category": "باقات",
+    "price": 200,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-018.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 169,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكيه زياره",
+    "category": "باقات",
+    "price": 150,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-019.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 170,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكيه حمد لله على السلامه",
+    "category": "باقات",
+    "price": 70,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-020.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 171,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست فلاور 5",
+    "category": "باقات",
+    "price": 280,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-021.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 172,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست فلاور مع تغليف راقي",
+    "category": "باقات",
+    "price": 180,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-022.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 173,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه ورد مع هولكاتي",
+    "category": "باقات",
+    "price": 300,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/teddy-bear-012.webp",
+    "description": {
+      "ar": "باقة للاعياد و المناسبات",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 174,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ورد احمر للمناسبات الخاصه",
+    "category": "باقات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-023.webp",
+    "description": {
+      "ar": "ورد طبيعي على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 175,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة مولود ميدل ميست",
+    "category": "باقات",
+    "price": 170,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-024.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 176,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة المولود 5",
+    "category": "باقات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-025.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 177,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة المشاعر والأحاسيس",
+    "category": "باقات",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-026.webp",
+    "description": {
+      "ar": "باقة ورود طبيعي احمر فاخر",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 178,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "كيك إني وداني مع الورد",
+    "category": "باقات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/chocolate-gift-014.webp",
+    "description": {
+      "ar": "كيك مع ورد طبيعي على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 179,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الموده ميدل ميست",
+    "category": "باقات",
+    "price": 350,
+    "image_url": null,
+    "description": {
+      "ar": "باقة ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 180,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكيه ورد الزياره",
+    "category": "باقات",
+    "price": 100,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-028.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 181,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكيه المحبه",
+    "category": "باقات",
+    "price": 170,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-029.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 182,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة حمد لله على السلامه",
+    "category": "باقات",
+    "price": 170,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-030.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 183,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الزياره العائليه",
+    "category": "باقات",
+    "price": 170,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-031.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 184,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الزياره العائليه والأهل والأصدقاء",
+    "category": "باقات",
+    "price": 270,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-032.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 185,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست الفاخره",
+    "category": "باقات",
+    "price": 455,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-033.webp",
+    "description": {
+      "ar": "باقه مميزه ورائعه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 186,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الصداقة والمحبه والسلام",
+    "category": "باقات",
+    "price": 170,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-034.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 187,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الزياره العائليه 3",
+    "category": "باقات",
+    "price": 170,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-035.webp",
+    "description": {
+      "ar": "باقه ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 188,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة أعياد ومناسبات",
+    "category": "باقات",
+    "price": 200,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-036.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 189,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه عيد الميلاد 3",
+    "category": "باقات",
+    "price": 170,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-037.webp",
+    "description": {
+      "ar": "باقة عيد ميلاد 3",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 190,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد الميلاد 5",
+    "category": "باقات",
+    "price": 250,
+    "image_url": null,
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 191,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة المناسبات والافراح",
+    "category": "باقات",
+    "price": 180,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-039.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 192,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد الميلاد 5",
+    "category": "باقات",
+    "price": 300,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-040.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 193,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكيه الزياره",
+    "category": "باقات",
+    "price": 150,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-041.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 194,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست فلاور للتخرجات",
+    "category": "باقات",
+    "price": 380,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-018.webp",
+    "description": {
+      "ar": "ورد طبيعي مع شريطة وقبعه على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 195,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست فلاور للمواليد",
+    "category": "باقات",
+    "price": 200,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-042.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 196,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه الافراح ميدل ميست فلاور",
+    "category": "باقات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-043.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 197,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ورد للاعياد والمناسبات",
+    "category": "باقات",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-044.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 198,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه الصداقة والمحبه ميدل ميست فلاور",
+    "category": "باقات",
+    "price": 280,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-045.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 199,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست فلاور الفاخره 8",
+    "category": "باقات",
+    "price": 280,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-046.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 200,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الزياره العائليه",
+    "category": "باقات",
+    "price": 130,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-047.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 201,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الزياره العائليه والأهل",
+    "category": "باقات",
+    "price": 180,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-048.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 202,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة التخرج والنجاح",
+    "category": "باقات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-019.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب مع شريطه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 203,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكيه زياره",
+    "category": "باقات",
+    "price": 100,
+    "image_url": null,
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 204,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكيه الصداقه",
+    "category": "باقات",
+    "price": 120,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-050.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 205,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست فلاور الفاخره 9",
+    "category": "باقات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-051.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 206,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه للتسامح والاعتزاز",
+    "category": "باقات",
+    "price": 220,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-052.webp",
+    "description": {
+      "ar": "باقه ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 207,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه الشمعة",
+    "category": "باقات",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-053.webp",
+    "description": {
+      "ar": "باقه ورد احمر من دون الشمعه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 208,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه للتسامح والاعتزاز",
+    "category": "باقات",
+    "price": 220,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-054.webp",
+    "description": {
+      "ar": "باقه ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 209,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة باستيل ميدل ميست",
+    "category": "باقات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-055.webp",
+    "description": {
+      "ar": "ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 210,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة التخرج والمناسبات الخاصة ميدل ميست",
+    "category": "باقات",
+    "price": 280,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-056.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 211,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الخطوبة والمناسبات الاجتماعيه ميدل ميست",
+    "category": "باقات",
+    "price": 369,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-020.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع مع شريطة حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 212,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة التخرج ميدل ميست فلاور الفاخره",
+    "category": "باقات",
+    "price": 429,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-021.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي مع شريطة حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 213,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست فلاور الفاخره 8",
+    "category": "باقات",
+    "price": 299,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-057.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 214,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست فلاور الفاخره 7",
+    "category": "باقات",
+    "price": 299,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-058.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 215,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة التخرج والنجاح فلاور",
+    "category": "باقات",
+    "price": 399,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-022.webp",
+    "description": {
+      "ar": "باقه ورد متنوعه و شريط علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 216,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكيه ورد الزياره",
+    "category": "باقات",
+    "price": 130,
+    "image_url": null,
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 217,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكيهات الزياره",
+    "category": "باقات",
+    "price": 100,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-060.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 218,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بكج تخرج مع باقة ورد",
+    "category": "باقات",
+    "price": 250,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-023.webp",
+    "description": {
+      "ar": "تغريسه و شريطه و باقه ورد علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 219,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه للاعياد والمناسبات الخاصه 5",
+    "category": "باقات",
+    "price": 280,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-061.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 220,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الخطوبة والمناسبات",
+    "category": "باقات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-062.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 221,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "بوكيه زياره",
+    "category": "باقات",
+    "price": 100,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-063.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 222,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست فلاور الفاخره 6",
+    "category": "باقات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-064.webp",
+    "description": {
+      "ar": "باقة ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 223,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه للاعياد والمناسبات الاجتماعيه",
+    "category": "باقات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-065.webp",
+    "description": {
+      "ar": "باقه ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 224,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست مولودة 3",
+    "category": "باقات",
+    "price": 290,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-066.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 225,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه جوجو",
+    "category": "باقات",
+    "price": 189,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-067.webp",
+    "description": {
+      "ar": "باقه للشكر",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 226,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الصداقه",
+    "category": "باقات",
+    "price": 189,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-068.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 227,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه المحبه",
+    "category": "باقات",
+    "price": 169,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-069.webp",
+    "description": {
+      "ar": "ورد جوري فاخر",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 228,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه عيد الحب",
+    "category": "باقات",
+    "price": 299,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-070.webp",
+    "description": {
+      "ar": "باقه فاخره",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 229,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه همس الحب",
+    "category": "باقات",
+    "price": 199,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-071.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 230,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه الغرام",
+    "category": "باقات",
+    "price": 169,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-072.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 231,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الجمال مع سلسال نسائى",
+    "category": "باقات",
+    "price": 369,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-073.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع مع سلسال نسائى عيار 925فضه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 232,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه الفخامه",
+    "category": "باقات",
+    "price": 149,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-074.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 233,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الذكرايات",
+    "category": "باقات",
+    "price": 179,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-075.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 234,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة شكلت أني و داني",
+    "category": "باقات",
+    "price": 259,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-076.webp",
+    "description": {
+      "ar": "ورد مع شكلت فاخر",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 235,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه اشراقه",
+    "category": "باقات",
+    "price": 169,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-077.webp",
+    "description": {
+      "ar": "ورد منوع جميل",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 236,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه مكس الوان فوشي",
+    "category": "باقات",
+    "price": 199,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-078.webp",
+    "description": {
+      "ar": "مكس الوان جميله مع اضافات أغصان كازا بلانكا هولندي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 237,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه ورد بيبي روز بنك بتصميم أنيق",
+    "category": "باقات",
+    "price": 239,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-079.webp",
+    "description": {
+      "ar": "تتألق باقة بيبي روز الساحرة بورد ناعم بتدرجات الوردي الفاتح التي تنشر أجواء من الصفاء والجمال. تنسيقها المتقن يبرز كل وردة كأنها لمسة فنية تضيف بريقًا",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 238,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة المساء ميدل ميست",
+    "category": "باقات",
+    "price": 249,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-080.webp",
+    "description": {
+      "ar": "باقة ورد احمر هي الخيار المثالي للتعبير عن مشاعرك بلمسة من الفخامة",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 239,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ورد احمر أنيقة",
+    "category": "باقات",
+    "price": 239,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-081.webp",
+    "description": {
+      "ar": "باقة ورد احمر أنيقة للتعبير عن الحب والمودة فى المناسبات المختلفه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 240,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ورد بيبي روز بينك بتغليف جذاب",
+    "category": "باقات",
+    "price": 239,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-082.webp",
+    "description": {
+      "ar": "تنسيق الباقه يمنحها مظهراً ممتلئا وحضورها لافتاً للنظر",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 241,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الكازابلنكا",
+    "category": "باقات",
+    "price": 369,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-083.webp",
+    "description": {
+      "ar": "باقة مكس الكازا بلانكا مع البيبي روز",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 242,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة قبلت",
+    "category": "باقات",
+    "price": 300,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-084.webp",
+    "description": {
+      "ar": "باقة العمر ١٠٠ وردة حمراء",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 243,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ورد مع شوكولاته لافيرا",
+    "category": "باقات",
+    "price": 319,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/chocolate-gift-015.webp",
+    "description": {
+      "ar": "ورد م شكلت فاخر",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 244,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه الحب 1",
+    "category": "باقات",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-085.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 245,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه ورد تخرج",
+    "category": "باقات",
+    "price": 229,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-086.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 246,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة شمس ي شموسه",
+    "category": "باقات",
+    "price": 349,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-087.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 247,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة شمس 1",
+    "category": "باقات",
+    "price": 349,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-088.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 248,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه ازرق مولود",
+    "category": "باقات",
+    "price": 199,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-089.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 249,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ورد الشفا",
+    "category": "باقات",
+    "price": 299,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-090.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 250,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه ورد سماوي",
+    "category": "باقات",
+    "price": 199,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-091.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 251,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه ورد طبيعي",
+    "category": "باقات",
+    "price": 150,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-092.webp",
+    "description": {
+      "ar": "منوعات من الورد",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 252,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ورد طبيعي",
+    "category": "باقات",
+    "price": 229,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-093.webp",
+    "description": {
+      "ar": "ورد منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 253,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ورد",
+    "category": "باقات",
+    "price": 159,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-094.webp",
+    "description": {
+      "ar": "ورد متنوع كل صنف",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 254,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه ورد",
+    "category": "باقات",
+    "price": 50,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-095.webp",
+    "description": {
+      "ar": "ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 255,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "غصن كازا بلانكا",
+    "category": "باقات",
+    "price": 18,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-024.webp",
+    "description": {
+      "ar": "تغليف و شرايط",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 256,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ورد طبيعي",
+    "category": "باقات",
+    "price": 159,
+    "image_url": null,
+    "description": {
+      "ar": "ورد طبيعي منوع و تغليف و كرد شكر",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 257,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "غصن بيبي روز",
+    "category": "باقات",
+    "price": 10,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-097.webp",
+    "description": {
+      "ar": "باقي ورد 10حبات متنوعه",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 258,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ورد احمر",
+    "category": "باقات",
+    "price": 170,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-098.webp",
+    "description": {
+      "ar": "تنسيق حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 259,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "شوكولاته باتشي وباقة ميدل ميست",
+    "category": "باقات",
+    "price": 250,
+    "image_url": null,
+    "description": {
+      "ar": "ورد طبيعي شوكولاته",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 260,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الميلاد مع سلسال نسائي",
+    "category": "باقات",
+    "price": 349,
+    "image_url": null,
+    "description": {
+      "ar": "باقه ورد مع سلسال نسائي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 261,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة تخرج 2",
+    "category": "باقات",
+    "price": 249,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-100.webp",
+    "description": {
+      "ar": "باقه للتخاريج والمناسبات",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 262,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه الموده 3",
+    "category": "باقات",
+    "price": 150,
+    "image_url": null,
+    "description": {
+      "ar": "باقه ورح تعبر عن الموده",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 263,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه الزياره",
+    "category": "باقات",
+    "price": 139,
+    "image_url": null,
+    "description": {
+      "ar": "باقه للزياره و الافراح",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 264,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقه المحبه",
+    "category": "باقات",
+    "price": 150,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-103.webp",
+    "description": {
+      "ar": "ورد طبيعي مع تغليف راقي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 265,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة المشاعر",
+    "category": "باقات",
+    "price": 229,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/chocolate-gift-017.webp",
+    "description": {
+      "ar": "باقه مع كيك علي حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 266,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة للشكر والعرفان",
+    "category": "باقات",
+    "price": 128,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-104.webp",
+    "description": {
+      "ar": "باقه ورد طبيعي مع تغليف راقي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 267,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة جزال ميدل ميست",
+    "category": "باقات",
+    "price": 390,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-105.webp",
+    "description": {
+      "ar": "ورد صناعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 268,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الصداقة والمحبه",
+    "category": "باقات",
+    "price": 150,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-106.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 269,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "فازة الانوثه",
+    "category": "باقات",
+    "price": 150,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/flower-vase-058.webp",
+    "description": {
+      "ar": "فازه مع ورد صناعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 270,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد الحب ميدل ميست",
+    "category": "باقات",
+    "price": 170,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-107.webp",
+    "description": {
+      "ar": "ورد طبيعي أحمر مع تغليف راقي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 271,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست مولودة",
+    "category": "باقات",
+    "price": 170,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-108.webp",
+    "description": {
+      "ar": "للمواليد",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 272,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الصداقة والمحبه",
+    "category": "باقات",
+    "price": 200,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-109.webp",
+    "description": {
+      "ar": "ورد طبيعي منوع على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 273,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الزياره",
+    "category": "باقات",
+    "price": 150,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-110.webp",
+    "description": {
+      "ar": "ورد طبيعي على حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 274,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة متنوعة",
+    "category": "باقات",
+    "price": 150,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-111.webp",
+    "description": {
+      "ar": "ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 275,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "الجوري الأحمر",
+    "category": "باقات",
+    "price": 5,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-112.webp",
+    "description": {
+      "ar": "-",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 276,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ملهمه ميدل ميست",
+    "category": "باقات",
+    "price": 390,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-113.webp",
+    "description": {
+      "ar": "ورد صناعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 277,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الخطوبة",
+    "category": "باقات",
+    "price": 350,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/custom-print-025.webp",
+    "description": {
+      "ar": "باقة خطوبة مع طباعة شريطة حسب الطلب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 278,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة مولوده تحمد بالسلامة",
+    "category": "باقات",
+    "price": 130,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-114.webp",
+    "description": {
+      "ar": "باقة مولودة تحمد بالسلامة",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 279,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة روز شوكلت 1",
+    "category": "باقات",
+    "price": 249,
+    "image_url": null,
+    "description": {
+      "ar": "بكس الشوكلاته وباقة ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 280,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة روز شوكلت 2",
+    "category": "باقات",
+    "price": 249,
+    "image_url": null,
+    "description": {
+      "ar": "شوكولاته روز شوكلت ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 281,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة روز شوكلت",
+    "category": "باقات",
+    "price": 229,
+    "image_url": null,
+    "description": {
+      "ar": "باقة ورد ونصف كيلو شوكولاته من روز شوكلت",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 282,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة مراسيل",
+    "category": "باقات",
+    "price": 199,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-115.webp",
+    "description": {
+      "ar": "ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 283,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "عقد ورد طبيعي",
+    "category": "باقات",
+    "price": 149,
+    "image_url": null,
+    "description": {
+      "ar": "عقد ورد طبيعي",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 284,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ورد ودبدوب",
+    "category": "باقات",
+    "price": 179,
+    "image_url": null,
+    "description": {
+      "ar": "باقة ورد جميلة مع دبدوب لطيف تجمع بين جمال الورود الطازجة والحنان الدافئ للدبدوب الناعم هدية مثالية للتعبير عن المشاعر والحب",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 285,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الحمدالله على السلامه",
+    "category": "باقات",
+    "price": 269,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-116.webp",
+    "description": {
+      "ar": "يمكنكم تغير الوان الورد ع حسب رغبتكم",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 286,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ورد اصفر تغليف قماش",
+    "category": "باقات",
+    "price": 225,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-117.webp",
+    "description": {
+      "ar": "يمكنكم تغير الوان الورد ع حسب رغبتكم",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 287,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة كلاسيك هولندي",
+    "category": "باقات",
+    "price": 369,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-118.webp",
+    "description": {
+      "ar": "يمكنكم تغير الوان الورد ع حسب رغبتكم",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 288,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة مشاعر",
+    "category": "باقات",
+    "price": 329,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-119.webp",
+    "description": {
+      "ar": "يمكنكم تغير الوان الورد ع حسب رغبتكم",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 289,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة اعتذار",
+    "category": "باقات",
+    "price": 189,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-120.webp",
+    "description": {
+      "ar": "يمكنكم تغير الوان الورد ع حسب رغبتكم",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 290,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ميدل ميست",
+    "category": "باقات",
+    "price": 199,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/rose-bouquet-121.webp",
+    "description": {
+      "ar": "يمكنكم تغير الوان الورد ع حسب رغبتكم",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 291,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة تخرج 9",
+    "category": "Rose Bouquet",
+    "price": 400,
+    "image_url": null,
+    "description": {
+      "ar": "باقة من أجود أنواع الروز الطبيعي مثل البيبي روز والودز، مجمعة في تغليف وردي مميز.",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 292,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة البهجة",
+    "category": "Rose Bouquet",
+    "price": 200,
+    "image_url": null,
+    "description": {
+      "ar": "باقة أنيقة تحتوي على الروز الأبيض، ليمون جراس، واللافندر، مع تغليف مميز.",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 293,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "balloon Number Rose gold",
+    "category": "Rose Bouquet",
+    "price": 57.5,
+    "image_url": null,
+    "description": {
+      "ar": "حروف رز جولد (ذهبي وردي) 34 بوصة رقم رز جولد مع هيليوم مقاس 34 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 294,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "balloon latters Rose gold",
+    "category": "Rose Bouquet",
+    "price": 57.5,
+    "image_url": null,
+    "description": {
+      "ar": "أرقام ذهبية 34 بوصة حروف رز جولد مع هيليوم مقاس 34 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 295,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "balloons Numbers gold",
+    "category": "Rose Bouquet",
+    "price": 57.5,
+    "image_url": null,
+    "description": {
+      "ar": "حروف ذهبية 34 بوصة رقم ذهبي مع هيليوم مقاس 34 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 296,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "balloones latter gold",
+    "category": "Rose Bouquet",
+    "price": 57.5,
+    "image_url": null,
+    "description": {
+      "ar": "رقم فضي 34 بوصة حروف ذهبية مع هيليوم مقاس 34 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 297,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "balloons Number sliver",
+    "category": "Rose Bouquet",
+    "price": 57.5,
+    "image_url": null,
+    "description": {
+      "ar": "حرف فضي 34 بوصة رقم فضي مع هيليوم مقاس 34 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 298,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "balloones latter sliver",
+    "category": "Rose Bouquet",
+    "price": 57.5,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-017.webp",
+    "description": {
+      "ar": "باقة بالونات كروم هيليوم 2 حروف فضية مع هيليوم مقاس 34 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 299,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "Chrome latex 12\"",
+    "category": "Rose Bouquet",
+    "price": 110.4,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-018.webp",
+    "description": {
+      "ar": "باقة بالونات هيليوم فضية باقة بالونات كروم هيليوم بنفسجي وذهبي 8 قطع 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 300,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة بالونات كروم هيليوم 1",
+    "category": "Rose Bouquet",
+    "price": 124.2,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-019.webp",
+    "description": {
+      "ar": "باقة بالونات كروم هيليوم ألوان مختلطة 8 قطع 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 301,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "Latex 12\"",
+    "category": "Rose Bouquet",
+    "price": 41.4,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-020.webp",
+    "description": {
+      "ar": "بالونات كروم سادة باقة بالونات هيليوم ذهبية 6 قطع 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 302,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة بالونات هيليوم ذهبية",
+    "category": "Rose Bouquet",
+    "price": 41.4,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-021.webp",
+    "description": {
+      "ar": "باقة بالونات هيليوم فوشيا 6 قطع 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 303,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة بالونات هيليوم فوشيا",
+    "category": "Rose Bouquet",
+    "price": 82.8,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-022.webp",
+    "description": {
+      "ar": "باقة بالونات هيليوم أزرق غامق 12 قطعة 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 304,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة بالونات هيليوم أزرق غامق",
+    "category": "Rose Bouquet",
+    "price": 82.8,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-023.webp",
+    "description": {
+      "ar": "باقة بالونات هيليوم سوداء 12 قطعة 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 305,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة بالونات هيليوم سوداء",
+    "category": "Rose Bouquet",
+    "price": 41.4,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-024.webp",
+    "description": {
+      "ar": "باقة بالونات هيليوم صفراء 6 قطع 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 306,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة بالونات هيليوم اصفر غامق (مكرر)",
+    "category": "Rose Bouquet",
+    "price": 41.4,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-025.webp",
+    "description": {
+      "ar": "باقة بالونات هيليوم حمراء 6 قطع 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 307,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة بالونات هيليوم حمراء",
+    "category": "Rose Bouquet",
+    "price": 41.4,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-026.webp",
+    "description": {
+      "ar": "باقة بالونات هيليوم بنفسجية 6 قطع 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 308,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة بالونات هيليوم بنفسجية",
+    "category": "Rose Bouquet",
+    "price": 41.4,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-027.webp",
+    "description": {
+      "ar": "باقة بالونات هيليوم فضية 6 قطع 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 309,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "latex balloons Chrome",
+    "category": "Rose Bouquet",
+    "price": 13.8,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-028.webp",
+    "description": {
+      "ar": "بالونات هيليوم لاتكس سادة اختيار البالون بالقطعة",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 310,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "Latex balloons",
+    "category": "Rose Bouquet",
+    "price": 6.9,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-029.webp",
+    "description": {
+      "ar": "الباقة الفاخرة اختيار البالون بالقطعة",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 311,
+    "category_id": "8260dfef-f052-4db4-a084-d9a30ebbcb38",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة مولود جديد ولد 3",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-030.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 312,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد ميلاد سعيد 2",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-031.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 313,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد ميلاد سعيد 3",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-032.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 314,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد ميلاد سعيد 4",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-033.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 315,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد ميلاد سعيد 5",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-034.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 316,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد ميلاد سعيد 6",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-035.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 317,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد ميلاد سعيد 7",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-036.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 318,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد ميلاد سعيد 8",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-037.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 319,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد ميلاد سعيد 9",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-038.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 320,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد ميلاد سعيد 10",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-039.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 321,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد ميلاد سعيد 1",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-040.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 322,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة مولود جديد ولد 3 (مكرر)",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-041.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 323,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة مولود جديد ولد 2",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-042.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 324,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة مولود جديد ولد 2 (مكرر)",
+    "category": "Helium Bouquets",
+    "price": 239,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-043.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 7 بالونات هيليوم بالإضافة إلى بالون لاتكس أسود (16 إنش)",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 325,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة تحديد جنس المولود ولد",
+    "category": "Helium Bouquets",
+    "price": 129,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-044.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 9 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 326,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة مولود جديد ولد 4",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-045.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 9 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 327,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة مولود جديد ولد 1",
+    "category": "Helium Bouquets",
+    "price": 89,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-046.webp",
+    "description": {
+      "ar": "باقة 12 حبة بالونات باستيل لاتكس 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 328,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الباستيل",
+    "category": "Helium Bouquets",
+    "price": 129,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-047.webp",
+    "description": {
+      "ar": "بالون قصدير 24 إنش مع 9 قطع بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 329,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة زواج 2",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-048.webp",
+    "description": {
+      "ar": "بالون قصدير 24 إنش مع 9 قطع بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 330,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "أنا أحبك",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-049.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 331,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة تمنيات سعيدة",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-050.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 332,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة ذكرى الزواج",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-051.webp",
+    "description": {
+      "ar": "4 قطع بالونات قصدير مع 10 قطع بالونات هيليوم لاتكس 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 333,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "رقم رز جولد (ذهبي وردي) 34 بوصة",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-052.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 334,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة تخرج 2",
+    "category": "Helium Bouquets",
+    "price": 92,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-053.webp",
+    "description": {
+      "ar": "بالون حروف كبير مع هيليوم بالإضافة إلى 6 قطع بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 335,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة بالونات حروف هيليوم فضية",
+    "category": "Helium Bouquets",
+    "price": 92,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-054.webp",
+    "description": {
+      "ar": "بالون حروف كبير مع هيليوم بالإضافة إلى 6 قطع بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 336,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة بالونات حروف هيليوم ذهبية",
+    "category": "Helium Bouquets",
+    "price": 92,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-055.webp",
+    "description": {
+      "ar": "بالون حروف كبير مع هيليوم بالإضافة إلى 6 قطع بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 337,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة بالونات حروف هيليوم رز جولد",
+    "category": "Helium Bouquets",
+    "price": 49,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-056.webp",
+    "description": {
+      "ar": "بالونات قصدير مع 3 قطع بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 338,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الأناناس",
+    "category": "Helium Bouquets",
+    "price": 49,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-057.webp",
+    "description": {
+      "ar": "بالونات قصدير مع 3 قطع بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 339,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة زواج 2 (مكرر)",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-058.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 340,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد الأم 1",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-059.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 341,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة عيد أم سعيدة 2",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-060.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 342,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الحب 1",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-061.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 343,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الحب 2",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-062.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 344,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة الحب 4",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-063.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 345,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة تخرج 6",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-064.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 346,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة تخرج 7",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-065.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 347,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  },
+  {
+    "name": "باقة تخرج 8",
+    "category": "Helium Bouquets",
+    "price": 99,
+    "image_url": "https://rgnpxovzbwzfofbbsaja.supabase.co/storage/v1/object/public/product-images/products/balloon-arrangement-066.webp",
+    "description": {
+      "ar": "بالون قصدير 18 إنش مع 6 بالونات هيليوم 12 إنش",
+      "en": ""
+    },
+    "is_active": true,
+    "sort_order": 348,
+    "category_id": "3edcc1e9-2221-41ec-bb8a-c6a62021fb82",
+    "legacy_id": null,
+    "is_featured": false,
+    "occasions": null,
+    "display_sections": null,
+    "subcategory_id": null
+  }
+]
