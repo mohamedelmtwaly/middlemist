@@ -46,6 +46,6 @@ export function useProducts() {
       // تحويل البيانات إلى شكل المكون
       return data.map(transformProduct);
     },
-    staleTime: 5 * 60 * 1000, // 5 دقائق
+    staleTime: 10 * 60 * 1000, // 10 دقائق - تقليل طلبات API
   });
 }

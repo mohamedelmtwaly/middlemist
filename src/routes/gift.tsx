@@ -45,9 +45,89 @@ function GiftPage() {
     notes: "",
   });
 
+  const [errors, setErrors] = useState<Record<string, string>>({});
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Add WhatsApp integration here
+
+    // Validate required fields
+    const newErrors: Record<string, string> = {};
+
+    if (!formData.senderName.trim()) {
+      newErrors.senderName = "اسم المرسل مطلوب";
+    }
+    if (!formData.senderMobile.trim()) {
+      newErrors.senderMobile = "جوال المرسل مطلوب";
+    }
+    if (!formData.recipientName.trim()) {
+      newErrors.recipientName = "اسم المستلم مطلوب";
+    }
+    if (!formData.recipientMobile.trim()) {
+      newErrors.recipientMobile = "جوال المستلم مطلوب";
+    }
+    if (!formData.occasion) {
+      newErrors.occasion = "المناسبة مطلوبة";
+    }
+    if (!formData.budget.trim()) {
+      newErrors.budget = "الميزانية مطلوبة";
+    }
+    if (!formData.deliveryDate) {
+      newErrors.deliveryDate = "تاريخ الاستلام مطلوب";
+    }
+    if (formData.deliveryType === "توصيل" && !formData.address.trim()) {
+      newErrors.address = "عنوان التوصيل مطلوب";
+    }
+
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
+      return;
+    }
+
+    // Clear errors
+    setErrors({});
+
+    // Format WhatsApp message
+    const whatsappMessage = `
+🎁 *طلب هدية جديدة*
+
+*📋 بيانات المرسل:*
+الاسم: ${formData.senderName}
+الجوال: ${formData.senderMobile}
+${formData.hideSender ? '⚠️ إخفاء اسم المرسل: نعم' : ''}
+
+*📋 بيانات المستلم:*
+الاسم: ${formData.recipientName}
+الجوال: ${formData.recipientMobile}
+
+*🎊 تفاصيل الهدية:*
+المناسبة: ${formData.occasion}
+نوع الهدية: ${formData.giftType}
+الألوان المفضلة: ${formData.colors || 'لم يحدد'}
+الميزانية: ${formData.budget} ر.س
+
+*🚚 الاستلام والتوصيل:*
+نوع التوصيل: ${formData.deliveryType}
+${formData.deliveryType === 'توصيل' ? `العنوان: ${formData.address}` : ''}
+تاريخ الاستلام: ${formData.deliveryDate}
+
+*💬 رسالة من القلب:*
+${formData.message || 'لا توجد رسالة'}
+
+*📝 ملاحظات إضافية:*
+${formData.notes || 'لا توجد ملاحظات'}
+    `.trim();
+
+    // Open WhatsApp with the message
+    const whatsappUrl = `https://wa.me/966539844144?text=${encodeURIComponent(whatsappMessage)}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
+  const handleChange = (field: string, value: string | boolean) => {
+    setFormData({ ...formData, [field]: value });
+    // Clear error for this field when user starts typing
+    if (errors[field]) {
+      setErrors({ ...errors, [field]: '' });
+    }
   };
 
   return (
@@ -74,46 +154,50 @@ function GiftPage() {
                     <Input
                       id="senderName"
                       value={formData.senderName}
-                      onChange={(e) => setFormData({ ...formData, senderName: e.target.value })}
+                      onChange={(e) => handleChange('senderName', e.target.value)}
                       placeholder="اسمك الكامل"
-                      className="rounded-xl border-2"
+                      className={`rounded-xl border-2 ${errors.senderName ? 'border-destructive' : ''}`}
                     />
+                    {errors.senderName && <p className="mt-1 text-sm text-destructive">{errors.senderName}</p>}
                   </div>
                   <div>
                     <Label htmlFor="senderMobile">جوال المرسل</Label>
                     <Input
                       id="senderMobile"
                       value={formData.senderMobile}
-                      onChange={(e) => setFormData({ ...formData, senderMobile: e.target.value })}
+                      onChange={(e) => handleChange('senderMobile', e.target.value)}
                       placeholder="05x0000000"
-                      className="rounded-xl border-2"
+                      className={`rounded-xl border-2 ${errors.senderMobile ? 'border-destructive' : ''}`}
                     />
+                    {errors.senderMobile && <p className="mt-1 text-sm text-destructive">{errors.senderMobile}</p>}
                   </div>
                   <div>
                     <Label htmlFor="recipientName">اسم المستلم</Label>
                     <Input
                       id="recipientName"
                       value={formData.recipientName}
-                      onChange={(e) => setFormData({ ...formData, recipientName: e.target.value })}
+                      onChange={(e) => handleChange('recipientName', e.target.value)}
                       placeholder="اسم المستلم"
-                      className="rounded-xl border-2"
+                      className={`rounded-xl border-2 ${errors.recipientName ? 'border-destructive' : ''}`}
                     />
+                    {errors.recipientName && <p className="mt-1 text-sm text-destructive">{errors.recipientName}</p>}
                   </div>
                   <div>
                     <Label htmlFor="recipientMobile">جوال المستلم</Label>
                     <Input
                       id="recipientMobile"
                       value={formData.recipientMobile}
-                      onChange={(e) => setFormData({ ...formData, recipientMobile: e.target.value })}
+                      onChange={(e) => handleChange('recipientMobile', e.target.value)}
                       placeholder="05000000000"
-                      className="rounded-xl border-2"
+                      className={`rounded-xl border-2 ${errors.recipientMobile ? 'border-destructive' : ''}`}
                     />
+                    {errors.recipientMobile && <p className="mt-1 text-sm text-destructive">{errors.recipientMobile}</p>}
                   </div>
                   <div className="flex items-center gap-2">
                     <Checkbox
                       id="hideSender"
                       checked={formData.hideSender}
-                      onCheckedChange={(checked) => setFormData({ ...formData, hideSender: checked as boolean })}
+                      onCheckedChange={(checked) => handleChange('hideSender', checked as boolean)}
                     />
                     <Label htmlFor="hideSender" className="cursor-pointer">إخفاء اسم المرسل عن المستلم</Label>
                   </div>
@@ -129,8 +213,8 @@ function GiftPage() {
                     <select
                       id="occasion"
                       value={formData.occasion}
-                      onChange={(e) => setFormData({ ...formData, occasion: e.target.value })}
-                      className="w-full rounded-xl border-2 px-4 py-3 bg-background"
+                      onChange={(e) => handleChange('occasion', e.target.value)}
+                      className={`w-full rounded-xl border-2 px-4 py-3 bg-background ${errors.occasion ? 'border-destructive' : ''}`}
                     >
                       <option value="">اختر المناسبة</option>
                       <option value="عيد ميلاد">عيد ميلاد</option>
@@ -140,13 +224,14 @@ function GiftPage() {
                       <option value="حب">حب</option>
                       <option value="أخرى">أخرى</option>
                     </select>
+                    {errors.occasion && <p className="mt-1 text-sm text-destructive">{errors.occasion}</p>}
                   </div>
                   <div>
                     <Label htmlFor="giftType">نوع الهدية</Label>
                     <select
                       id="giftType"
                       value={formData.giftType}
-                      onChange={(e) => setFormData({ ...formData, giftType: e.target.value })}
+                      onChange={(e) => handleChange('giftType', e.target.value)}
                       className="w-full rounded-xl border-2 px-4 py-3 bg-background"
                     >
                       <option value="باقة ورد">باقة ورد</option>
@@ -161,7 +246,7 @@ function GiftPage() {
                     <Input
                       id="colors"
                       value={formData.colors}
-                      onChange={(e) => setFormData({ ...formData, colors: e.target.value })}
+                      onChange={(e) => handleChange('colors', e.target.value)}
                       placeholder="مثل: وردي وابيض"
                       className="rounded-xl border-2"
                     />
@@ -171,10 +256,11 @@ function GiftPage() {
                     <Input
                       id="budget"
                       value={formData.budget}
-                      onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
+                      onChange={(e) => handleChange('budget', e.target.value)}
                       placeholder="الميزانية المناسبة لك"
-                      className="rounded-xl border-2"
+                      className={`rounded-xl border-2 ${errors.budget ? 'border-destructive' : ''}`}
                     />
+                    {errors.budget && <p className="mt-1 text-sm text-destructive">{errors.budget}</p>}
                   </div>
                 </div>
               </div>
@@ -190,7 +276,7 @@ function GiftPage() {
                         name="deliveryType"
                         value="توصيل"
                         checked={formData.deliveryType === "توصيل"}
-                        onChange={(e) => setFormData({ ...formData, deliveryType: e.target.value })}
+                        onChange={(e) => handleChange('deliveryType', e.target.value)}
                         className="h-4 w-4"
                       />
                       <span>توصيل</span>
@@ -201,7 +287,7 @@ function GiftPage() {
                         name="deliveryType"
                         value="استلام من المحل"
                         checked={formData.deliveryType === "استلام من المحل"}
-                        onChange={(e) => setFormData({ ...formData, deliveryType: e.target.value })}
+                        onChange={(e) => handleChange('deliveryType', e.target.value)}
                         className="h-4 w-4"
                       />
                       <span>استلام من المحل</span>
@@ -213,10 +299,11 @@ function GiftPage() {
                       <Input
                         id="address"
                         value={formData.address}
-                        onChange={(e) => setFormData({ ...formData, address: e.target.value })}
+                        onChange={(e) => handleChange('address', e.target.value)}
                         placeholder="المدينة الحي الشارع"
-                        className="rounded-xl border-2"
+                        className={`rounded-xl border-2 ${errors.address ? 'border-destructive' : ''}`}
                       />
+                      {errors.address && <p className="mt-1 text-sm text-destructive">{errors.address}</p>}
                     </div>
                   )}
                   <div>
@@ -225,9 +312,10 @@ function GiftPage() {
                       id="deliveryDate"
                       type="date"
                       value={formData.deliveryDate}
-                      onChange={(e) => setFormData({ ...formData, deliveryDate: e.target.value })}
-                      className="rounded-xl border-2"
+                      onChange={(e) => handleChange('deliveryDate', e.target.value)}
+                      className={`rounded-xl border-2 ${errors.deliveryDate ? 'border-destructive' : ''}`}
                     />
+                    {errors.deliveryDate && <p className="mt-1 text-sm text-destructive">{errors.deliveryDate}</p>}
                   </div>
                 </div>
               </div>
@@ -241,7 +329,7 @@ function GiftPage() {
                     <Textarea
                       id="message"
                       value={formData.message}
-                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                      onChange={(e) => handleChange('message', e.target.value)}
                       placeholder="اكتب كلماتك لمن تحب..."
                       className="rounded-xl border-2 resize-none"
                       rows={3}
@@ -252,7 +340,7 @@ function GiftPage() {
                     <Textarea
                       id="notes"
                       value={formData.notes}
-                      onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
+                      onChange={(e) => handleChange('notes', e.target.value)}
                       placeholder="أي تفاصيل خاصة بهديتك"
                       className="rounded-xl border-2 resize-none"
                       rows={2}
@@ -270,10 +358,6 @@ function GiftPage() {
                 <Gift className="mr-2 h-5 w-5" />
                 إرسال طلب الهدية
               </Button>
-
-              <p className="text-center text-sm text-muted-foreground">
-                سيتم تنسيق ميدلي لتحديد الأسعار والتوصيل بعد الاتفاق مع العميل.
-              </p>
             </form>
 
             {/* Left Panel - Gift Details */}

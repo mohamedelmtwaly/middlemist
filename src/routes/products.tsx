@@ -21,8 +21,11 @@ export const Route = createFileRoute("/products")({
       { name: "description", content: "تصفح جميع منتجاتنا من باقات الورد، بوكسات الهدايا، الفازات، والمزيد" },
     ],
   }),
-  validateSearch: (s: Record<string, unknown>): { cat?: string } =>
-    typeof s["cat"] === "string" ? { cat: s["cat"] } : {},
+  validateSearch: (s: Record<string, unknown>): { cat?: string; product?: string } =>
+    ({
+      cat: typeof s["cat"] === "string" ? s["cat"] : undefined,
+      product: typeof s["product"] === "string" ? s["product"] : undefined,
+    }),
   component: () => (
     <CartProvider>
       <ProductsPage />
@@ -37,7 +40,7 @@ function ProductsPage() {
   const { add } = useCart();
   const [customizing, setCustomizing] = useState<Product | null>(null);
   const [q, setQ] = useState("");
-  const { cat: initialCat } = Route.useSearch();
+  const { cat: initialCat, product: initialProduct } = Route.useSearch();
 
   // جلب البيانات من Supabase
   const { data: products = [], isLoading: productsLoading, error: productsError } = useProducts();
@@ -55,6 +58,21 @@ function ProductsPage() {
       setMainCat(initialCat);
     }
   }, [initialCat, categories]);
+
+  // Scroll to product when specified in URL
+  useEffect(() => {
+    if (initialProduct && products.length > 0) {
+      const productElement = document.getElementById(`product-${initialProduct}`);
+      if (productElement) {
+        productElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        // Highlight the product
+        productElement.classList.add('ring-2', 'ring-primary', 'ring-offset-2');
+        setTimeout(() => {
+          productElement.classList.remove('ring-2', 'ring-primary', 'ring-offset-2');
+        }, 3000);
+      }
+    }
+  }, [initialProduct, products]);
 
   // Get subcategories for selected main category
   const selectedMainCategory = mainCategories.find((c: Category) => c.name_ar === mainCat);
@@ -146,7 +164,7 @@ function ProductsPage() {
                   key={c}
                   onClick={() => {
                     setMainCat(c);
-                    setSubCat("الكل");
+                    setSubCat(null);
                   }}
                   className={cn(
                     "rounded-xl border-2 px-4 py-3 text-sm font-medium transition-all",
@@ -200,7 +218,7 @@ function ProductsPage() {
           ) : (
             <div className="grid grid-cols-2 gap-2 sm:gap-3 md:grid-cols-3 lg:grid-cols-4">
               {filtered.map((p: Product) => (
-                <article key={p.id} className="group flex flex-col overflow-hidden rounded-xl border border-border/50 bg-card shadow-soft transition-shadow">
+                <article key={p.id} id={`product-${p.id}`} className="group flex flex-col overflow-hidden rounded-xl border border-border/50 bg-card shadow-soft transition-shadow">
                   <div className="relative overflow-hidden">
                     <img src={p.image} alt={p.name} loading="lazy" className="aspect-square w-full object-cover transition duration-700 group-hover:scale-105" />
                     <span className="absolute right-1.5 top-1.5 max-w-[70%] truncate rounded-full bg-card/90 px-1.5 py-0.5 text-xs font-medium text-primary backdrop-blur sm:right-2 sm:top-2 sm:px-2 sm:py-0.5 sm:text-[10px] md:right-3 md:top-3 md:px-3 md:py-1 md:text-[11px]">{p.category}</span>

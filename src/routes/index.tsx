@@ -28,6 +28,9 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: "صمّم باقتك بلونك وميزانيتك وعبارتك، واطلب مباشرة عبر واتساب." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      // Preload critical images for better performance
+      { link: { rel: "preload", as: "image", href: hero } },
+      { link: { rel: "preload", as: "image", href: heroBg } },
     ],
   }),
   component: () => (
@@ -292,9 +295,9 @@ function SpotlightSlider({ products }: { products: Product[] }) {
   const [paused, setPaused] = useState(false);
   const [touchX, setTouchX] = useState<number | null>(null);
   
-  // اختيار 5 منتجات عشوائية يوميًا
+  // اختيار 10 منتجات عشوائية يوميًا
   const slides = useMemo(() => {
-    const selectedProducts = getDailyRandomProducts(products, 5);
+    const selectedProducts = getDailyRandomProducts(products, 10);
     
     // تحويل المنتجات إلى format الشرائح
     return selectedProducts.map((p) => ({
@@ -303,7 +306,7 @@ function SpotlightSlider({ products }: { products: Product[] }) {
       desc: p.desc || p.category, // الوصف أو التصنيف
       img: p.image, // صورة المنتج
       cta: "عرض المنتج", // نص الزر
-      href: "/products", // رابط لصفحة المنتجات
+      href: `/products?product=${p.id}`, // رابط لصفحة المنتجات مع ID المنتج
       product: p, // حفظ المنتج كامل
     }));
   }, [products]);
@@ -408,6 +411,7 @@ function Store() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [flowerDisplayCount, setFlowerDisplayCount] = useState(20);
   const [giftDisplayCount, setGiftDisplayCount] = useState(20);
+  const [selectionDisplayCount, setSelectionDisplayCount] = useState(20);
   const [customBouquetOpen, setCustomBouquetOpen] = useState(false);
   const [customBouquetForm, setCustomBouquetForm] = useState({
     name: "",
@@ -509,7 +513,9 @@ function Store() {
   ];
   const [tab, setTab] = useState(tabs[0]![1]);
   const tabCats = tabs.find((t) => t[1] === tab)?.[2];
-  const tabItems = tabCats ? products.filter((p) => tabCats.includes(p.category)) : picked;
+  const allTabItems = tabCats ? products.filter((p) => tabCats.includes(p.category)) : picked;
+  const tabItems = allTabItems.slice(0, selectionDisplayCount);
+  const hasMoreSelections = allTabItems.length > selectionDisplayCount;
   const open = (p: Product) => setCustomizing(p);
 
   // حالة التحميل
@@ -768,12 +774,23 @@ function Store() {
           <Head en="Curated Collections" title="مجموعات متخصصة" description={tabs.find((t) => t[1] === tab)?.[3] ?? ""} />
           <div className="flex flex-wrap gap-2 justify-center" role="tablist">
             {tabs.map(([t, en]) => (
-              <button key={en} role="tab" aria-selected={tab === en} onClick={() => setTab(en)}
+              <button key={en} role="tab" aria-selected={tab === en} onClick={() => { setTab(en); setSelectionDisplayCount(20); }}
                 className={cn("rounded-full border px-4 py-2 text-sm transition", tab === en ? "border-primary bg-primary text-primary-foreground" : "bg-cream hover:border-primary")}>{t}</button>
             ))}
           </div>
         </div>
         <Shelf title="" items={tabItems} onOpen={open} add={add} />
+        {hasMoreSelections && (
+          <div className="flex justify-center pb-14 md:pb-20">
+            <Button
+              onClick={() => setSelectionDisplayCount(prev => prev + 5)}
+              variant="outline"
+              className="rounded-full border-primary/30 px-6 py-2 text-sm hover:bg-primary/5 transition-all"
+            >
+              تعرف على المزيد
+            </Button>
+          </div>
+        )}
       </section>
 
       <section style={{ backgroundColor: '#D5D2BC' }} className="px-4 py-14 md:py-20">
