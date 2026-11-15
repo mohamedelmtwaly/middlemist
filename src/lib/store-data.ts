@@ -144,10 +144,10 @@ export const colorOptions = [
 
 export const wrapOptions = ["زيتي فاخر", "أسود مخملي", "كريمي", "وردي ناعم"];
 export const sizeOptions = [
-  { name: "صغير", delta: -60 },
-  { name: "متوسط", delta: 0 },
-  { name: "كبير", delta: 120 },
-  { name: "فخم", delta: 260 },
+  { name: "صغير", multiplier: 0.5 },
+  { name: "متوسط", multiplier: 1 },
+  { name: "كبير", multiplier: 2 },
+  { name: "فخم", multiplier: 4 },
 ];
 export const extras = [
   { name: "دبدوب", price: 80 },

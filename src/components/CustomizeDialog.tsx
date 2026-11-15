@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { useCart } from "@/lib/cart";
 import { colorOptions, extras, sizeOptions, wrapOptions } from "@/lib/store-data";
 import type { Product } from "@/lib/store-data";
+import { toast } from "sonner";
 
 export function CustomizeDialog({ product, onClose }: { product: Product | null; onClose: () => void }) {
   const { add } = useCart();
@@ -20,14 +21,34 @@ export function CustomizeDialog({ product, onClose }: { product: Product | null;
   const [notes, setNotes] = useState("");
 
   if (!product) return null;
-  const sizeDelta = sizeOptions.find((s) => s.name === size)?.delta ?? 0;
+  const sizeMultiplier = sizeOptions.find((s) => s.name === size)?.multiplier ?? 1;
   const extrasSum = extras.filter((e) => chosen.includes(e.name)).reduce((s, e) => s + e.price, 0);
-  const price = useBudget ? budget : product.price + sizeDelta + extrasSum;
+  
+  // حساب السعر الأساسي الفعلي (السعر من المنتج أو الميزانية)
+  const effectiveBasePrice = useBudget ? budget : product.price;
+  
+  // حساب سعر الحجم بناءً على المعامل
+  const sizePrice = effectiveBasePrice * sizeMultiplier;
+  
+  // السعر النهائي = سعر الحجم + الإضافات
+  const calculatedPrice = sizePrice + extrasSum;
+  
+  // منع السعر السالب: إذا كان السعر المحسوب أقل من 0، استخدم 0
+  const price = Math.max(0, calculatedPrice);
+  
+  // التحقق من أن السعر صالح
+  const isPriceInvalid = calculatedPrice < 0;
 
   const chip = (active: boolean) =>
     cn("rounded-full border px-4 py-1.5 text-sm transition", active ? "border-primary bg-primary text-primary-foreground" : "bg-card hover:border-primary");
 
   const submit = () => {
+    // منع إضافة منتج بسعر سالب
+    if (isPriceInvalid) {
+      toast.error("الحجم المختار غير متاح بهذا السعر. يرجى اختيار حجم آخر أو زيادة الميزانية.");
+      return;
+    }
+    
     const options = [
       `اللون: ${customColor.trim() || color}`,
       `التغليف: ${wrap}`,
@@ -94,7 +115,22 @@ export function CustomizeDialog({ product, onClose }: { product: Product | null;
               {useBudget && (
                 <div className="space-y-2 rounded-2xl bg-secondary p-3">
                   <label className="block text-xs font-bold text-primary mb-1">حدد ميزانيتك</label>
-                  <Input type="number" min={150} max={2000} step={50} value={budget} onChange={(e) => setBudget(Number(e.target.value))} className="h-9 text-xs" placeholder="أدخل الميزانية" />
+                  <Input 
+                    type="number" 
+                    min={0} 
+                    max={2000} 
+                    step={50} 
+                    value={budget} 
+                    onChange={(e) => {
+                      const value = Number(e.target.value);
+                      // منع الميزانية السالبة
+                      if (value >= 0) {
+                        setBudget(value);
+                      }
+                    }} 
+                    className="h-9 text-xs" 
+                    placeholder="أدخل الميزانية" 
+                  />
                   <p className="text-center font-bold text-primary text-sm">{budget} ر.س</p>
                 </div>
               )}
@@ -112,8 +148,24 @@ export function CustomizeDialog({ product, onClose }: { product: Product | null;
           </div>
         </div>
         <div className="flex items-center justify-between border-t pt-3">
-          <span className="text-xl font-bold text-primary sm:text-2xl">{price} ر.س</span>
-          <Button size="lg" className="rounded-full px-4 text-sm sm:px-8 sm:text-base h-9 sm:h-12" onClick={submit}>أضف للسلة</Button>
+          <div className="flex flex-col">
+            <span className={`text-xl font-bold sm:text-2xl ${isPriceInvalid ? 'text-destructive' : 'text-primary'}`}>
+              {price} ر.س
+            </span>
+            {isPriceInvalid && (
+              <span className="text-xs text-destructive mt-1">
+                الحجم المختار غير متاح بهذا السعر
+              </span>
+            )}
+          </div>
+          <Button 
+            size="lg" 
+            className="rounded-full px-4 text-sm sm:px-8 sm:text-base h-9 sm:h-12" 
+            onClick={submit}
+            disabled={isPriceInvalid}
+          >
+            أضف للسلة
+          </Button>
         </div>
       </DialogContent>
     </Dialog>

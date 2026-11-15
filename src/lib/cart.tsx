@@ -27,6 +27,12 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const [open, setOpen] = useState(false);
 
   const add: Ctx["add"] = (item) => {
+    // منع إضافة منتج بسعر سالب
+    if (item.price < 0) {
+      console.error("Cannot add item with negative price:", item);
+      return;
+    }
+    
     const key = item.name + "|" + (item.options ?? []).join("|") + "|" + item.price;
     setItems((prev) => {
       const ex = prev.find((i) => i.key === key);
@@ -50,6 +56,19 @@ export function useCart() {
 }
 
 export function whatsappOrderUrl(items: CartItem[], total: number, note: string) {
+  // منع إرسال طلب بإجمالي سالب
+  if (total < 0) {
+    console.error("Cannot send order with negative total:", total);
+    return "#";
+  }
+  
+  // منع إرسال طلب بمنتجات بأسعار سالبة
+  const hasNegativePrice = items.some(i => i.price < 0);
+  if (hasNegativePrice) {
+    console.error("Cannot send order with items having negative prices");
+    return "#";
+  }
+  
   const lines = items.map(
     (i) => `• ${i.name} × ${i.qty} — ${i.price * i.qty} ر.س${i.options?.length ? "\n   " + i.options.join("\n   ") : ""}`,
   );
