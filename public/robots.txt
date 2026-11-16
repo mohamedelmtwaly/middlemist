@@ -3,5 +3,6 @@ Allow: /
 
 Disallow: /admin
 Disallow: /admin/
+Disallow: /api
 
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://www.middlemist.store/sitemap.xml

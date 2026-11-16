@@ -1,4 +1,4 @@
-import { MessageCircle, MapPin, Phone, Clock, Instagram, Facebook } from "lucide-react";
+import { MessageCircle, MapPin, Phone, Clock, Instagram, Facebook, MoreHorizontal } from "lucide-react";
 import { WHATSAPP, ADDRESS } from "@/lib/store-data";
 import logo from "@/assets/logo-middlemist-transparent.png";
 
@@ -21,13 +21,17 @@ export function PageFooter() {
                   className="grid h-9 w-9 sm:h-10 sm:w-10 place-items-center rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors">
                   <MessageCircle className="h-4 w-4 sm:h-5 sm:w-5" />
                 </a>
-                <a href="#" target="_blank" rel="noreferrer" aria-label="إنستغرام"
+                <a href="https://www.instagram.com/middlemist2626" target="_blank" rel="noreferrer" aria-label="إنستغرام"
                   className="grid h-9 w-9 sm:h-10 sm:w-10 place-items-center rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors">
                   <Instagram className="h-4 w-4 sm:h-5 sm:w-5" />
                 </a>
-                <a href="#" target="_blank" rel="noreferrer" aria-label="فيسبوك"
+                <a href="https://www.tiktok.com/@middlemist65" target="_blank" rel="noreferrer" aria-label="تيك توك"
                   className="grid h-9 w-9 sm:h-10 sm:w-10 place-items-center rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors">
-                  <Facebook className="h-4 w-4 sm:h-5 sm:w-5" />
+                  <MoreHorizontal className="h-4 w-4 sm:h-5 sm:w-5" />
+                </a>
+                <a href="https://snapchat.com/t/fqR672CO" target="_blank" rel="noreferrer" aria-label="سناب شات"
+                  className="grid h-9 w-9 sm:h-10 sm:w-10 place-items-center rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors">
+                  <MoreHorizontal className="h-4 w-4 sm:h-5 sm:w-5" />
                 </a>
               </div>
             </div>
@@ -70,7 +74,7 @@ export function PageFooter() {
             <div className="space-y-3 sm:space-y-4 text-center sm:text-left">
               <h3 className="font-display text-sm sm:text-base md:text-lg font-bold text-gold-bright">عن المتجر</h3>
               <ul className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
-                <li><a href="#" className="text-primary-foreground/80 hover:text-gold-bright transition-colors text-[11px] sm:text-xs md:text-sm">من نحن</a></li>
+                <li><a href="/about" className="text-primary-foreground/80 hover:text-gold-bright transition-colors text-[11px] sm:text-xs md:text-sm">من نحن</a></li>
                 <li><a href="#visit-us" className="text-primary-foreground/80 hover:text-gold-bright transition-colors text-[11px] sm:text-xs md:text-sm">موقعنا</a></li>
                 <li><a href="#testimonials" className="text-primary-foreground/80 hover:text-gold-bright transition-colors text-[11px] sm:text-xs md:text-sm">آراء العملاء</a></li>
                 <li><a href="#contact" className="text-primary-foreground/80 hover:text-gold-bright transition-colors text-[11px] sm:text-xs md:text-sm">تواصل معنا</a></li>

@@ -17,9 +17,43 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/products")({
   head: () => ({
     meta: [
-      { title: "جميع المنتجات | Middlemist Flower" },
-      { name: "description", content: "تصفح جميع منتجاتنا من باقات الورد، بوكسات الهدايا، الفازات، والمزيد" },
+      { title: "المنتجات | Middlemist Flower | باقات ورد ومسكات عروس وهدايا في جدة" },
+      { name: "description", content: "تصفح جميع منتجات Middlemist Flower في جدة: باقات الورد الفاخرة، مسكات العروس، بوكسات الهدايا، الفازات، الأستاندات، البالونات، الدباديب، والطباعة. اطلب الآن عبر واتساب." },
+      { name: "keywords", content: "منتجات ورد جدة, باقات ورد للطلب, مسكات عروس للطلب, بوكسات هدايا جدة, فازات ورد جدة, بالونات جدة, دباديب جدة" },
+      { property: "og:title", content: "المنتجات | Middlemist Flower" },
+      { property: "og:description", content: "تصفح جميع منتجات Middlemist Flower في جدة: باقات الورد الفاخرة، مسكات العروس، بوكسات الهدايا، الفازات، الأستاندات، البالونات، الدباديب، والطباعة." },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://www.middlemist.store/products" },
+      { property: "og:locale", content: "ar_SA" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "المنتجات | Middlemist Flower" },
+      { name: "twitter:description", content: "تصفح جميع منتجات Middlemist Flower في جدة: باقات الورد الفاخرة، مسكات العروس، بوكسات الهدايا، الفازات، الأستاندات، البالونات، الدباديب، والطباعة." },
+      { name: "robots", content: "index, follow" },
+      { link: { rel: "canonical", href: "https://www.middlemist.store/products" } },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        innerHTML: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "الرئيسية",
+              "item": "https://www.middlemist.store/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "المنتجات",
+              "item": "https://www.middlemist.store/products"
+            }
+          ]
+        })
+      }
+    ]
   }),
   validateSearch: (s: Record<string, unknown>): { cat?: string; product?: string } =>
     ({

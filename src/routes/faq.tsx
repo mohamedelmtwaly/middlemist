@@ -15,9 +15,43 @@ import { CartSheet } from "@/components/CartSheet";
 export const Route = createFileRoute("/faq")({
   head: () => ({
     meta: [
-      { title: "الأسئلة الشائعة | Middlemist Flower" },
-      { name: "description", content: "إجابات عن الأسئلة الشائعة حول خدماتنا ومنتجاتنا" },
+      { title: "الأسئلة الشائعة | Middlemist Flower | استفسارات الطلب والتوصيل في جدة" },
+      { name: "description", content: "إجابات عن الأسئلة الشائعة حول خدمات Middlemist Flower ومنتجاتنا في جدة: طرق الطلب، التوصيل، الدفع، التخصيص، وغيرها. تواصل معنا على 966539844144+" },
+      { name: "keywords", content: "أسئلة شائعة ورد جدة, استفسارات الطلب, توصيل الورد جدة, الدفع بالساتر, تخصيص الباقات, سياسة الإرجاع" },
+      { property: "og:title", content: "الأسئلة الشائعة | Middlemist Flower" },
+      { property: "og:description", content: "إجابات عن الأسئلة الشائعة حول خدمات Middlemist Flower ومنتجاتنا في جدة: طرق الطلب، التوصيل، الدفع، التخصيص، وغيرها." },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://www.middlemist.store/faq" },
+      { property: "og:locale", content: "ar_SA" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "الأسئلة الشائعة | Middlemist Flower" },
+      { name: "twitter:description", content: "إجابات عن الأسئلة الشائعة حول خدمات Middlemist Flower ومنتجاتنا في جدة: طرق الطلب، التوصيل، الدفع، التخصيص، وغيرها." },
+      { name: "robots", content: "index, follow" },
+      { link: { rel: "canonical", href: "https://www.middlemist.store/faq" } },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        innerHTML: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "الرئيسية",
+              "item": "https://www.middlemist.store/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "الأسئلة الشائعة",
+              "item": "https://www.middlemist.store/faq"
+            }
+          ]
+        })
+      }
+    ]
   }),
   component: () => (
     <CartProvider>

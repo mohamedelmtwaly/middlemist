@@ -22,16 +22,125 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Middlemist Flower | ورد وهدايا وطباعة في جدة" },
-      { name: "description", content: "متجر Middlemist Flower في جدة: باقات ورد، مسكات عروس، بوكسات هدايا، دروع، طباعة وتنسيق حفلات. صمّم باقتك واطلب عبر واتساب." },
-      { property: "og:title", content: "Middlemist Flower | ورد وهدايا وطباعة" },
-      { property: "og:description", content: "صمّم باقتك بلونك وميزانيتك وعبارتك، واطلب مباشرة عبر واتساب." },
+      { title: "Middlemist Flower | متجر ورد وهدايا في جدة | باقات ورد ومسكات عروس" },
+      { name: "description", content: "ميدل ميست فلاور متجر ورد وهدايا في جدة، نقدم باقات ورد فاخرة ومسكات عروس وبوكسات هدايا وتنسيق مناسبات وورود حسب الطلب. صمم هديتك الخاصة وتواصل معنا." },
+      { name: "keywords", content: "محل ورد في جدة, باقات ورد جدة, مسكات عروس جدة, بوكسات هدايا جدة, تنسيق مناسبات جدة, متجر هدايا جدة, محل ورد حي النسيم" },
+      { property: "og:title", content: "Middlemist Flower | متجر ورد وهدايا في جدة" },
+      { property: "og:description", content: "ميدل ميست فلاور متجر ورد وهدايا في جدة، نقدم باقات ورد فاخرة ومسكات عروس وبوكسات هدايا وتنسيق مناسبات. صمم هديتك الخاصة وتواصل معنا." },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://www.middlemist.store/" },
+      { property: "og:locale", content: "ar_SA" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Middlemist Flower | متجر ورد وهدايا في جدة" },
+      { name: "twitter:description", content: "ميدل ميست فلاور متجر ورد وهدايا في جدة، نقدم باقات ورد فاخرة ومسكات عروس وبوكسات هدايا وتنسيق مناسبات." },
+      { name: "robots", content: "index, follow" },
+      { link: { rel: "canonical", href: "https://www.middlemist.store/" } },
       // Preload critical images for better performance
       { link: { rel: "preload", as: "image", href: hero } },
       { link: { rel: "preload", as: "image", href: heroBg } },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        innerHTML: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://www.middlemist.store/#localbusiness",
+          "name": "Middlemist Flower",
+          "alternateName": "ميدل ميست فلاور",
+          "description": "متجر ورد وهدايا وتنسيق مناسبات في جدة",
+          "url": "https://www.middlemist.store",
+          "telephone": "+966539844144",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "حي أبو ذر الغفاري، النسيم",
+            "addressLocality": "جدة",
+            "addressRegion": "مكة المكرمة",
+            "postalCode": "23233",
+            "addressCountry": "SA"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "21.5433",
+            "longitude": "39.1728"
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "opens": "14:00",
+              "closes": "02:30"
+            }
+          ],
+          "priceRange": "SAR",
+          "currency": "SAR",
+          "image": "https://www.middlemist.store/hero.jpg",
+          "sameAs": [
+            "https://www.instagram.com/middlemist2626",
+            "https://www.tiktok.com/@middlemist65",
+            "https://snapchat.com/t/fqR672CO"
+          ]
+        })
+      },
+      {
+        type: "application/ld+json",
+        innerHTML: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://www.middlemist.store/#website",
+          "url": "https://www.middlemist.store",
+          "name": "Middlemist Flower",
+          "description": "متجر ورد وهدايا في جدة - باقات ورد، مسكات عروس، بوكسات هدايا، وتنسيق مناسبات",
+          "inLanguage": "ar-SA",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.middlemist.store/products?product={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        })
+      },
+      {
+        type: "application/ld+json",
+        innerHTML: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://www.middlemist.store/#organization",
+          "name": "Middlemist Flower",
+          "alternateName": "ميدل ميست فلاور",
+          "url": "https://www.middlemist.store",
+          "logo": "https://www.middlemist.store/logo-middlemist-transparent.png",
+          "description": "متجر ورد وهدايا وتنسيق مناسبات في جدة - باقات ورد، مسكات عروس، بوكسات هدايا، الفازات، الأستاندات، البالونات، الدباديب، والطباعة",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+966539844144",
+            "contactType": "customer service",
+            "areaServed": "SA",
+            "availableLanguage": "Arabic"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "حي أبو ذر الغفاري، النسيم",
+            "addressLocality": "جدة",
+            "addressRegion": "مكة المكرمة",
+            "postalCode": "23233",
+            "addressCountry": "SA"
+          },
+          "sameAs": [
+            "https://www.instagram.com/middlemist2626",
+            "https://www.tiktok.com/@middlemist65",
+            "https://snapchat.com/t/fqR672CO"
+          ]
+        })
+      }
+    ]
   }),
   component: () => (
     <CartProvider>
@@ -339,7 +448,7 @@ function SpotlightSlider({ products }: { products: Product[] }) {
                 <div key={s.product.id} className="grid w-full shrink-0 items-center gap-4 p-4 md:gap-8 md:grid-cols-2 md:p-12" style={{ backgroundColor: '#F5F1E9' }}>
                   <div className="relative order-2 md:order-1">
                     <div className="absolute -inset-3 rounded-2xl border-2 border-gold/20 md:-inset-4 md:rounded-3xl" />
-                    <img src={img} alt={s.title} loading="lazy" className="relative aspect-square w-full rounded-xl object-cover shadow-lg md:rounded-2xl md:aspect-[4/3]" />
+                    <img src={img} alt={`${s.title} - باقة ورد من Middlemist Flower جدة`} loading="lazy" className="relative aspect-square w-full rounded-xl object-cover shadow-lg md:rounded-2xl md:aspect-[4/3]" />
                   </div>
                   <div className="order-1 space-y-3 text-center md:order-2 md:space-y-5 md:text-start">
                     <p className="text-xs tracking-[0.3em] text-gold md:text-xs">{s.en}</p>
@@ -369,7 +478,7 @@ function ProductCard({ p, onOpen, add }: { p: Product; onOpen: (p: Product) => v
   return (
     <article className="group card-lift flex h-full flex-col overflow-hidden rounded-xl border border-border/50 bg-card shadow-soft transition-shadow">
       <div className="relative overflow-hidden">
-        <img src={p.image} alt={p.name} loading="lazy" width={600} height={600} className="aspect-square w-full object-cover transition duration-700 group-hover:scale-105 sm:aspect-square md:aspect-square" />
+        <img src={p.image} alt={`${p.name} - ${p.category} من Middlemist Flower جدة`} loading="lazy" width={600} height={600} className="aspect-square w-full object-cover transition duration-700 group-hover:scale-105 sm:aspect-square md:aspect-square" />
         <span className="absolute right-1.5 top-1.5 max-w-[70%] truncate rounded-full bg-card/90 px-1.5 py-0.5 text-xs font-medium text-primary backdrop-blur sm:right-2 sm:top-2 sm:px-2 sm:py-0.5 sm:text-[10px] md:right-3 md:top-3 md:px-3 md:py-1 md:text-[11px]">{p.category}</span>
         <button onClick={() => onOpen(p)} className="absolute inset-x-1.5 bottom-1.5 translate-y-2 rounded-full bg-primary/90 py-1 text-xs font-bold text-primary-foreground opacity-0 backdrop-blur transition group-hover:translate-y-0 group-hover:opacity-100 sm:inset-x-2 sm:bottom-2 sm:py-1.5 sm:text-[10px] md:inset-x-3 md:bottom-3 md:py-2 md:text-xs">
           خصّص
@@ -549,7 +658,7 @@ function Store() {
             </div>
             <div className="order-1 relative mx-auto w-full max-w-[160px] sm:order-2 sm:max-w-xs lg:max-w-md">
               <div className="absolute -inset-1.5 rounded-[1.5rem] border border-gold-bright/25 sm:-inset-4 sm:rounded-[2.5rem]" />
-              <img src={hero} alt="باقة ورد من Middlemist" width={800} height={1000} className="relative aspect-[4/5] w-full rounded-[1rem] object-cover shadow-soft sm:rounded-[2rem]" />
+              <img src={hero} alt="باقة ورد فاخرة من Middlemist Flower متجر ورد وهدايا في جدة" width={800} height={1000} className="relative aspect-[4/5] w-full rounded-[1rem] object-cover shadow-soft sm:rounded-[2rem]" />
               <div className="absolute -right-1.5 bottom-3 flex items-center gap-1.5 rounded-lg bg-card px-2 py-1.5 text-foreground shadow-soft sm:-right-3 sm:bottom-8 sm:gap-3 sm:rounded-2xl sm:px-5 sm:py-4 lg:-right-8">
                 <div className="flex text-gold">{Array.from({ length: 5 }, (_, k) => <Star key={k} className="h-2 w-2 fill-current sm:h-4 sm:w-4" />)}</div>
                 <div className="text-[10px] sm:text-sm"><p className="font-bold">تنسيق يدوي</p><p className="text-[9px] text-muted-foreground sm:text-xs">بعناية لكل تفصيلة</p></div>
@@ -596,7 +705,7 @@ function Store() {
             </div>
             <div className="order-1 relative mx-auto w-full max-w-[160px] sm:order-2 sm:max-w-xs lg:max-w-md">
               <div className="absolute -inset-1.5 rounded-[1.5rem] border border-gold-bright/25 sm:-inset-4 sm:rounded-[2.5rem]" />
-              <img src={hero} alt="باقة ورد من Middlemist" width={800} height={1000} className="relative aspect-[4/5] w-full rounded-[1rem] object-cover shadow-soft sm:rounded-[2rem]" />
+              <img src={hero} alt="باقة ورد فاخرة من Middlemist Flower متجر ورد وهدايا في جدة" width={800} height={1000} className="relative aspect-[4/5] w-full rounded-[1rem] object-cover shadow-soft sm:rounded-[2rem]" />
               <div className="absolute -right-1.5 bottom-3 flex items-center gap-1.5 rounded-lg bg-card px-2 py-1.5 text-foreground shadow-soft sm:-right-3 sm:bottom-8 sm:gap-3 sm:rounded-2xl sm:px-5 sm:py-4 lg:-right-8">
                 <div className="flex text-gold">{Array.from({ length: 5 }, (_, k) => <Star key={k} className="h-2 w-2 fill-current sm:h-4 sm:w-4" />)}</div>
                 <div className="text-[10px] sm:text-sm"><p className="font-bold">تنسيق يدوي</p><p className="text-[9px] text-muted-foreground sm:text-xs">بعناية لكل تفصيلة</p></div>
@@ -683,7 +792,7 @@ function Store() {
         <div className="mt-10 grid grid-cols-3 gap-2 sm:grid-cols-4 lg:grid-cols-6 md:gap-4">
           {categories.filter((c: Category) => !c.parent_id).map((c: Category) => (
             <a key={c.name_ar} href={`/products?cat=${encodeURIComponent(c.name_ar)}`} className="group card-lift overflow-hidden rounded-xl border border-border/50 bg-cream">
-              <img src={c.image_url ?? categoryImages[c.name_ar] ?? hero} alt={c.name_ar} loading="lazy" className="aspect-square w-full object-cover transition duration-500 group-hover:scale-105" />
+              <img src={c.image_url ?? categoryImages[c.name_ar] ?? hero} alt={`${c.name_ar} - تصنيف منتجات Middlemist Flower في جدة`} loading="lazy" className="aspect-square w-full object-cover transition duration-500 group-hover:scale-105" />
               <p className="truncate p-1.5 text-center text-xs font-bold sm:p-2 sm:text-xs">{c.name_ar}</p>
             </a>
           ))}
@@ -833,7 +942,7 @@ function Store() {
               </a>
             </Button>
             <Button asChild variant="outline" className="rounded-full border border-primary/30 px-4 py-2 text-xs hover:bg-primary/5 transition-all">
-              <a href="https://instagram.com" target="_blank" rel="noreferrer" className="flex items-center gap-1">
+              <a href="https://www.instagram.com/middlemist2626" target="_blank" rel="noreferrer" className="flex items-center gap-1">
                 <svg className="h-2 w-2" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                 </svg>
@@ -841,11 +950,19 @@ function Store() {
               </a>
             </Button>
             <Button asChild variant="outline" className="rounded-full border border-primary/30 px-4 py-2 text-xs hover:bg-primary/5 transition-all">
-              <a href="https://tiktok.com" target="_blank" rel="noreferrer" className="flex items-center gap-1">
+              <a href="https://www.tiktok.com/@middlemist65" target="_blank" rel="noreferrer" className="flex items-center gap-1">
                 <svg className="h-2 w-2" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
                 </svg>
                 تيكتوك
+              </a>
+            </Button>
+            <Button asChild variant="outline" className="rounded-full border border-primary/30 px-4 py-2 text-xs hover:bg-primary/5 transition-all">
+              <a href="https://snapchat.com/t/fqR672CO" target="_blank" rel="noreferrer" className="flex items-center gap-1">
+                <svg className="h-2 w-2" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.536 2.233c-1.12.398-2.483.733-3.913.97-.514.083-1.03.168-1.544.257-1.448.25-2.855.56-4.16.934a.5.5 0 0 0-.35.547c.11.524.327 1.366.817 2.31.39.75.92 1.528 1.65 2.147a6.6 6.6 0 0 0 1.79.944c.064.023.13.044.195.065.34.11.69.2 1.05.27v.002c.12.024.24.046.36.066.72.123 1.46.198 2.2.223.03.001.06.002.09.002.66.022 1.32.008 1.97-.04.07-.006.14-.012.21-.018.55-.052 1.09-.135 1.62-.25l.005-.001c.36-.083.71-.186 1.05-.31.06-.022.12-.045.18-.068a6.6 6.6 0 0 0 1.65-.932c.72-.617 1.25-1.394 1.64-2.144.49-.944.707-1.786.817-2.31a.5.5 0 0 0-.35-.547c-1.304-.374-2.712-.684-4.16-.934-.514-.089-1.03-.174-1.544-.257-1.43-.237-2.793-.572-3.913-.97z"/>
+                </svg>
+                سناب شات
               </a>
             </Button>
           </div>

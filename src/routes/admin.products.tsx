@@ -15,6 +15,11 @@ import { toast } from 'sonner';
 import { getSupabaseClient } from '@/lib/supabase';
 
 export const Route = createFileRoute('/admin/products')({
+  head: () => ({
+    meta: [
+      { name: "robots", content: "noindex, nofollow" },
+    ],
+  }),
   component: AdminProducts,
 });
 

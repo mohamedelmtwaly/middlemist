@@ -15,9 +15,43 @@ import hero from "@/assets/hero.jpg";
 export const Route = createFileRoute("/gift")({
   head: () => ({
     meta: [
-      { title: "صمم هدية | Middlemist Flower" },
-      { name: "description", content: "صمم هديتك الخاصة لمن تحب باقات ورد وهدايا مخصصة" },
+      { title: "صمم هديتك | Middlemist Flower | باقات ورد مخصصة في جدة" },
+      { name: "description", content: "صمم هديتك الخاصة في Middlemist Flower جدة. اختر اللون والحجم والميزانية وعبارتك المطبوعة. باقات ورد مخصصة لمسا أفراحك مع توصيل في جدة." },
+      { name: "keywords", content: "صمم هدية جدة, باقة ورد مخصصة, هدايا حسب الطلب, ورد حسب الميزانية, تصميم باقة ورد, هدايا شخصية جدة" },
+      { property: "og:title", content: "صمم هديتك | Middlemist Flower" },
+      { property: "og:description", content: "صمم هديتك الخاصة في Middlemist Flower جدة. اختر اللون والحجم والميزانية وعبارتك المطبوعة. باقات ورد مخصصة لمسا أفراحك." },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://www.middlemist.store/gift" },
+      { property: "og:locale", content: "ar_SA" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "صمم هديتك | Middlemist Flower" },
+      { name: "twitter:description", content: "صمم هديتك الخاصة في Middlemist Flower جدة. اختر اللون والحجم والميزانية وعبارتك المطبوعة." },
+      { name: "robots", content: "index, follow" },
+      { link: { rel: "canonical", href: "https://www.middlemist.store/gift" } },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        innerHTML: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "الرئيسية",
+              "item": "https://www.middlemist.store/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "صمم هديتك",
+              "item": "https://www.middlemist.store/gift"
+            }
+          ]
+        })
+      }
+    ]
   }),
   component: () => (
     <CartProvider>

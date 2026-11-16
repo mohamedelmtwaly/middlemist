@@ -11,9 +11,43 @@ import hero from "@/assets/hero.jpg";
 export const Route = createFileRoute("/occasions")({
   head: () => ({
     meta: [
-      { title: "مناسباتنا | Middlemist Flower" },
-      { name: "description", content: "باقات ورد لكل مناسبة - موليد، خطوبة، تخرج، وغيرها" },
+      { title: "مناسباتنا | Middlemist Flower | باقات ورد لكل مناسبة في جدة" },
+      { name: "description", content: "اكتشف باقات الورد والهدايا المخصصة لكل مناسبة في Middlemist Flower جدة: مولود، خطوبة، تخرج، عيد ميلاد، شكر واعتذار، وغيرها. اطلب الآن عبر واتساب." },
+      { name: "keywords", content: "ورد للمولود جدة, باقة ورد للتخرج, ورد للخطوبة, هدايا عيد ميلاد جدة, ورد للشكر والاعتذار, مناسبات ورد جدة" },
+      { property: "og:title", content: "مناسباتنا | Middlemist Flower" },
+      { property: "og:description", content: "اكتشف باقات الورد والهدايا المخصصة لكل مناسبة في Middlemist Flower جدة: مولود، خطوبة، تخرج، عيد ميلاد، شكر واعتذار، وغيرها." },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://www.middlemist.store/occasions" },
+      { property: "og:locale", content: "ar_SA" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "مناسباتنا | Middlemist Flower" },
+      { name: "twitter:description", content: "اكتشف باقات الورد والهدايا المخصصة لكل مناسبة في Middlemist Flower جدة: مولود، خطوبة، تخرج، عيد ميلاد، شكر واعتذار، وغيرها." },
+      { name: "robots", content: "index, follow" },
+      { link: { rel: "canonical", href: "https://www.middlemist.store/occasions" } },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        innerHTML: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "الرئيسية",
+              "item": "https://www.middlemist.store/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "مناسباتنا",
+              "item": "https://www.middlemist.store/occasions"
+            }
+          ]
+        })
+      }
+    ]
   }),
   component: () => (
     <CartProvider>

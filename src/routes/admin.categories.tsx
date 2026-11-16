@@ -49,6 +49,11 @@ const defaultCategoryImages: Record<string, string> = {
 };
 
 export const Route = createFileRoute('/admin/categories')({
+  head: () => ({
+    meta: [
+      { name: "robots", content: "noindex, nofollow" },
+    ],
+  }),
   component: AdminCategories,
 });
 

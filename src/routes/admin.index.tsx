@@ -7,6 +7,11 @@ import { StatCard } from '@/components/admin/StatCard';
 import { Loader2, Package, Folder, Eye, EyeOff, Leaf } from 'lucide-react';
 
 export const Route = createFileRoute('/admin/')({
+  head: () => ({
+    meta: [
+      { name: "robots", content: "noindex, nofollow" },
+    ],
+  }),
   component: AdminDashboard,
 });
 

@@ -8,6 +8,11 @@ import { Loader2, Lock, Mail } from 'lucide-react';
 import logo from '@/assets/logo-middlemist-transparent.png';
 
 export const Route = createFileRoute('/admin/login')({
+  head: () => ({
+    meta: [
+      { name: "robots", content: "noindex, nofollow" },
+    ],
+  }),
   component: AdminLogin,
 });
 

@@ -50,6 +50,7 @@ export function PageHeader({ currentPage, showCart = true, showBreadcrumb = true
             <a href="/products">المنتجات</a>
             <a href="/gift">صمم هدية</a>
             <a href="/occasions">مناسباتنا</a>
+            <a href="/about">من نحن</a>
             <a href="/faq">الأسئلة الشائعة</a>
             <a href="/#testimonials">آراء العملاء</a>
             <a href="/#visit-us">زورونا</a>
@@ -80,6 +81,7 @@ export function PageHeader({ currentPage, showCart = true, showBreadcrumb = true
               <a href="/products" onClick={() => setMobileMenuOpen(false)} className="block py-1.5 text-sm">المنتجات</a>
               <a href="/gift" onClick={() => setMobileMenuOpen(false)} className="block py-1.5 text-sm">صمم هدية</a>
               <a href="/occasions" onClick={() => setMobileMenuOpen(false)} className="block py-1.5 text-sm">مناسباتنا</a>
+              <a href="/about" onClick={() => setMobileMenuOpen(false)} className="block py-1.5 text-sm">من نحن</a>
               <a href="/faq" onClick={() => setMobileMenuOpen(false)} className="block py-1.5 text-sm">الأسئلة الشائعة</a>
               <a href="/#testimonials" onClick={() => setMobileMenuOpen(false)} className="block py-1.5 text-sm">آراء العملاء</a>
               <a href="/#visit-us" onClick={() => setMobileMenuOpen(false)} className="block py-1.5 text-sm">زورونا</a>
